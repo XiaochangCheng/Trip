@@ -33,7 +33,7 @@ function renderTimeline(){
 }
 function renderDay(){
  const day=data.days[selected];document.querySelectorAll('[role=tab]').forEach((b,i)=>{b.setAttribute('aria-selected',String(i===selected));b.tabIndex=i===selected?0:-1;});$('#day-panel').setAttribute('aria-labelledby','tab-'+selected);
- const heading=$('#day-heading');heading.replaceChildren(el('p','day-kicker',`DAY 0${selected+1} / ${day.date} · ${day.weekday}`),el('h2','day-title',day.title));heading.append(el('p','day-route',day.route));const meta=el('div','day-meta');const badge=el('span','badge');badge.id='day-count';meta.append(el('span','',day.tagline),badge);heading.append(meta);
+ const heading=$('#day-heading');heading.replaceChildren(el('p','day-kicker',`DAY 0${selected+1} / ${day.date} · ${day.weekday}`));heading.append(el('p','day-route',day.route));const meta=el('div','day-meta');const badge=el('span','badge');badge.id='day-count';meta.append(el('span','',day.tagline),badge);heading.append(meta);
  if(day.intro.length){const intro=el('div','intro');day.intro.forEach(p=>intro.append(el('p','',p)));heading.append(intro);}renderTimeline();updateCounts();
 }
 $('#hide-done').checked=state.hideDone;$('#hide-done').addEventListener('change',e=>{state.hideDone=e.target.checked;save();renderTimeline();});
