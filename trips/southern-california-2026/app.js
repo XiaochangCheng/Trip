@@ -33,14 +33,14 @@ function renderTimeline(){
 }
 function renderDay(){
  const day=data.days[selected];document.querySelectorAll('[role=tab]').forEach((b,i)=>{b.setAttribute('aria-selected',String(i===selected));b.tabIndex=i===selected?0:-1;});$('#day-panel').setAttribute('aria-labelledby','tab-'+selected);
- const heading=$('#day-heading');heading.replaceChildren(el('p','day-kicker',`DAY 0${selected+1} / ${day.date} · ${day.weekday}`));heading.append(el('p','day-route',day.route));const meta=el('div','day-meta');const badge=el('span','badge');badge.id='day-count';meta.append(el('span','',day.tagline),badge);heading.append(meta);
+ const heading=$('#day-heading');heading.replaceChildren(el('p','day-kicker',`DAY 0${selected+1} / ${day.date} · ${day.weekday}`));heading.append(el('h2','day-title',day.title));const meta=el('div','day-meta');const badge=el('span','badge');badge.id='day-count';meta.append(el('span','',day.route),badge);heading.append(meta);
  if(day.intro.length){const intro=el('div','intro');day.intro.forEach(p=>intro.append(el('p','',p)));heading.append(intro);}renderTimeline();updateCounts();
 }
 $('#hide-done').checked=state.hideDone;$('#hide-done').addEventListener('change',e=>{state.hideDone=e.target.checked;save();renderTimeline();});
 $('#collapse-morning').addEventListener('click',()=>{const group=$('[data-period=morning]');if(group){group.open=false;state.closed[data.days[selected].date+'-morning']=true;save();}});
 $('#expand-all').addEventListener('click',()=>{document.querySelectorAll('#timeline details').forEach(d=>d.open=true);for(const key of ['morning','afternoon','evening'])state.closed[data.days[selected].date+'-'+key]=false;save();});
 $('#reset').addEventListener('click',()=>{if(confirm('清除当前浏览器中的全部完成记录？行程内容不受影响。')){state.done={};save();renderDay();}});
-fetch('./data/itinerary.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(json=>{
+fetch('./data/itinerary.json', { cache: 'no-store' }).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(json=>{
  data=json;const date=location.hash.slice(1);const index=data.days.findIndex(d=>d.date===date);selected=index<0?0:index;
  data.days.forEach((day,i)=>{const button=el('button','tab');button.id='tab-'+i;button.setAttribute('role','tab');button.setAttribute('aria-controls','day-panel');button.append(el('span','day-number','DAY 0'+(i+1)));const date=el('span','date',day.date.slice(5).replace('-','.'));date.append(el('small','',day.weekday));button.append(date,el('span','place',i<2?'San Diego':i===2?'Joshua Tree':i===3?'Palm Springs':'归途 · San Diego'));button.addEventListener('click',()=>{selected=i;history.replaceState(null,'','#'+day.date);renderDay();});button.addEventListener('keydown',e=>{let next;if(e.key==='ArrowRight')next=(i+1)%data.days.length;if(e.key==='ArrowLeft')next=(i+data.days.length-1)%data.days.length;if(e.key==='Home')next=0;if(e.key==='End')next=data.days.length-1;if(next!==undefined){e.preventDefault();$('#tab-'+next).click();$('#tab-'+next).focus();}});$('#tabs').append(button);});renderDay();
 }).catch(()=>{$('#timeline').replaceChildren(el('p','empty','行程未能加载。请通过本地预览服务器或部署网址打开页面，再刷新重试。'));});
