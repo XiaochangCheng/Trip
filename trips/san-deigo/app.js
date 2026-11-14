@@ -20,15 +20,15 @@ function entry(item) {
  if(item.notes.length){const notes=el('div','notes');item.notes.forEach(t=>notes.append(el('p','',t)));body.append(notes);}row.append(label,body);return row;
 }
 function renderTimeline(){
- const host=$('#timeline');host.replaceChildren();const day=data.days[selected];
- for(const [key,label,range] of [['morning','上午','12 PM 前结束'],['afternoon','下午','含跨中午行程'],['evening','晚上','6 PM 起出发']]){
-  const items=day.items.filter(i=>i.period===key);if(!items.length)continue;
-  const group=el('details','period');const groupKey=day.date+'-'+key;group.open=!state.closed[groupKey];group.dataset.period=key;
-  const summary=el('summary');summary.append(el('span','',label+' / '+range),el('span','period-info',items.length+' 项行程'));group.append(summary);
-  group.addEventListener('toggle',()=>{state.closed[groupKey]=!group.open;save();});
-  const entries=el('div','entries');const visible=items.filter(i=>!state.hideDone||!state.done[i.id]);visible.forEach(i=>entries.append(entry(i)));group.append(entries);
-  const done=items.filter(i=>state.done[i.id]);if(state.hideDone&&done.length){const details=el('details','done-group');details.append(el('summary','',`已完成 ${done.length} 项 · 点击查看`));done.forEach(i=>details.append(entry(i)));group.append(details);}
-  host.append(group);
+ const host=$('#timeline');host.replaceChildren();const items=data.days[selected].items;
+ const entries=el('div','entries');
+ items.filter(i=>!state.hideDone||!state.done[i.id]).forEach(i=>entries.append(entry(i)));
+ host.append(entries);
+ const done=items.filter(i=>state.done[i.id]);
+ if(state.hideDone&&done.length){
+  const details=el('details','done-group');
+  details.append(el('summary','',`已完成 ${done.length} 项 · 点击查看`));
+  done.forEach(i=>details.append(entry(i)));host.append(details);
  }
 }
 function renderDay(){
@@ -37,7 +37,7 @@ function renderDay(){
  if(day.intro.length){const intro=el('div','intro');day.intro.forEach(p=>intro.append(el('p','',p)));heading.append(intro);}renderTimeline();updateCounts();
 }
 $('#hide-done').checked=state.hideDone;$('#hide-done').addEventListener('change',e=>{state.hideDone=e.target.checked;save();renderTimeline();});
-$('#expand-all').addEventListener('click',()=>{document.querySelectorAll('#timeline details').forEach(d=>d.open=true);for(const key of ['morning','afternoon','evening'])state.closed[data.days[selected].date+'-'+key]=false;save();});
+$('#expand-all').addEventListener('click',()=>{state.hideDone=false;$('#hide-done').checked=false;save();renderTimeline();});
 $('#reset').addEventListener('click',()=>{if(confirm('清除当前浏览器中的全部完成记录？行程内容不受影响。')){state.done={};save();renderDay();}});
 fetch('./data/itinerary.json', { cache: 'no-store' }).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(json=>{
  data=json;const date=location.hash.slice(1);const index=data.days.findIndex(d=>d.date===date);selected=index<0?0:index;

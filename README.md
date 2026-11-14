@@ -6,14 +6,14 @@
 
 - 南加州五日自驾：2026-11-26 至 2026-11-30，San Diego / Joshua Tree / Palm Springs，共 54 项。
 - 保留完整时间、备注和 Torrey Pines 四条步道资料。
-- 支持日期 tabs、Google Maps 导航、勾选完成、按时间段及已完成事项折叠、本地保存。
+- 支持日期 tabs、Google Maps 导航、勾选完成、收起已完成事项、本地保存。
 
 ## 文件结构
 
 ```text
 index.html / app.js / styles.css    简洁的行程目录
  data/trips.json                    目录中的旅行列表
-trips/southern-california-2026/
+trips/san-deigo/
   index.html / app.js / styles.css  本次旅行页面
   data/itinerary.json               本次完整行程数据
 .github/workflows/pages.yml         推送 main 后自动发布
@@ -39,7 +39,9 @@ trips/southern-california-2026/
 - 新增城市：复制现有旅行目录为新目录，更新行程 JSON、页面标题和文案；将新目录的 app.js 中 KEY 改为独立键名，避免完成状态与其他旅行冲突。
 - 在 `data/trips.json` 添加新旅行的 title、route、dates 和相对 url，首页自动显示。
 - 事项 id 必须唯一且稳定，调整时间或文案不要修改 id。新增活动使用新 id。
-- time 为原文展示；start/end 为当地午夜起分钟数；period 为 morning/afternoon/evening，决定归组，修改时间时同步修改。上午组在 12 PM 前结束，跨中午事项留在下午，18:00 起开始的事项归晚上。
+- time 为原文展示；事项按数组顺序连续显示，不区分上午、下午或晚上。start/end 和 period 为历史数据字段，不影响显示。
 - notes 为备注数组；destination 为地图目的地，不明确时设为 null。
 
 进度按浏览器保存，不跨设备同步，清理站点数据会清除进度。时间及待确认的营业、交通信息按原行程保留。JFK 出发为纽约时间，加州行程为太平洋时间。
+
+旧地址 `trips/southern-california-2026/` 自动跳转到 `trips/san-deigo/`；日期链接和本地完成记录保留。
