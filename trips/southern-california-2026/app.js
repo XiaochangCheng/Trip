@@ -37,7 +37,6 @@ function renderDay(){
  if(day.intro.length){const intro=el('div','intro');day.intro.forEach(p=>intro.append(el('p','',p)));heading.append(intro);}renderTimeline();updateCounts();
 }
 $('#hide-done').checked=state.hideDone;$('#hide-done').addEventListener('change',e=>{state.hideDone=e.target.checked;save();renderTimeline();});
-$('#collapse-morning').addEventListener('click',()=>{const group=$('[data-period=morning]');if(group){group.open=false;state.closed[data.days[selected].date+'-morning']=true;save();}});
 $('#expand-all').addEventListener('click',()=>{document.querySelectorAll('#timeline details').forEach(d=>d.open=true);for(const key of ['morning','afternoon','evening'])state.closed[data.days[selected].date+'-'+key]=false;save();});
 $('#reset').addEventListener('click',()=>{if(confirm('清除当前浏览器中的全部完成记录？行程内容不受影响。')){state.done={};save();renderDay();}});
 fetch('./data/itinerary.json', { cache: 'no-store' }).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(json=>{
