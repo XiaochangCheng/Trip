@@ -1,0 +1,695 @@
+{
+  "title": "南加州 · 五日公路旅行",
+  "days": [
+    {
+      "date": "2026-11-26",
+      "weekday": "周四",
+      "title": "海岸的第一眼",
+      "route": "San Diego",
+      "tagline": "抵达 · La Jolla · Little Italy",
+      "intro": [],
+      "items": [
+        {
+          "id": "d1-01",
+          "time": "8am JFK - 11:18am San",
+          "title": "JFK → SAN",
+          "start": 480,
+          "end": 678,
+          "period": "morning",
+          "notes": [],
+          "destination": null
+        },
+        {
+          "id": "d1-02",
+          "time": "12:00-12:30PM",
+          "title": "机场取车出发",
+          "start": 720,
+          "end": 750,
+          "period": "afternoon",
+          "notes": [],
+          "destination": "San Diego International Airport Rental Car Center"
+        },
+        {
+          "id": "d1-03",
+          "time": "1:30–2:05 PM",
+          "title": "从 Downtown 开车前往 Scripps Pier",
+          "start": 810,
+          "end": 845,
+          "period": "afternoon",
+          "notes": [
+            "车程约25–35分钟。"
+          ],
+          "destination": "Scripps Pier San Diego"
+        },
+        {
+          "id": "d1-04",
+          "time": "2:05–2:40 PM",
+          "title": "Scripps Pier",
+          "start": 845,
+          "end": 880,
+          "period": "afternoon",
+          "notes": [
+            "在海滩拍栈桥、海岸线。"
+          ],
+          "destination": "Scripps Pier San Diego"
+        },
+        {
+          "id": "d1-05",
+          "time": "2:40–3:00 PM",
+          "title": "开车前往 La Jolla Cove",
+          "start": 880,
+          "end": 900,
+          "period": "afternoon",
+          "notes": [
+            "包含寻找停车位的预估时间。"
+          ],
+          "destination": "La Jolla Cove"
+        },
+        {
+          "id": "d1-06",
+          "time": "3:00–4:00 PM",
+          "title": "La Jolla Cove",
+          "start": 900,
+          "end": 960,
+          "period": "afternoon",
+          "notes": [
+            "看海狮、沿海岸散步、拍照。"
+          ],
+          "destination": "La Jolla Cove"
+        },
+        {
+          "id": "d1-07",
+          "time": "4:00–4:45 PM",
+          "title": "La Jolla 海边看日落",
+          "start": 960,
+          "end": 1005,
+          "period": "afternoon",
+          "notes": [
+            "沿 Coast Boulevard 往西寻找视野开阔的观景点。日落约4:43 PM。"
+          ],
+          "destination": "Coast Boulevard La Jolla"
+        },
+        {
+          "id": "d1-08",
+          "time": "4:45–5:30 PM",
+          "title": "开车返回 Little Italy",
+          "start": 1005,
+          "end": 1050,
+          "period": "afternoon",
+          "notes": [
+            "车程及停车预留约45分钟。"
+          ],
+          "destination": "Little Italy San Diego"
+        },
+        {
+          "id": "d1-09",
+          "time": "5:30 PM以后",
+          "title": "Little Italy",
+          "start": 1050,
+          "end": 1050,
+          "period": "afternoon",
+          "notes": [
+            "晚餐、逛街。感恩节当天需提前确认餐厅营业。"
+          ],
+          "destination": "Little Italy San Diego"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "周五",
+      "title": "沿着海岸慢慢走",
+      "route": "San Diego",
+      "tagline": "Torrey Pines · Coronado · Sunset Cliffs",
+      "intro": [],
+      "items": [
+        {
+          "id": "d2-01",
+          "time": "8:15–9:00 AM",
+          "title": "早餐",
+          "start": 495,
+          "end": 540,
+          "period": "morning",
+          "notes": [
+            "在酒店或 Little Italy 附近吃早餐。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d2-02",
+          "time": "9:00–9:40 AM",
+          "title": "开车前往 Torrey Pines",
+          "start": 540,
+          "end": 580,
+          "period": "morning",
+          "notes": [
+            "从 Downtown 出发，预留40分钟。",
+            "🅿️12600 N Torrey Pines Park Rd, LA Jolla, CA 92037",
+            "🚶徒步步道",
+            "🔹Guy Fleming Trail（20-30min走完，俯瞰大海，甚至直接坐着发呆",
+            "🔹Razor Point Trail（30-40min走完，途径制高点",
+            "🔹Beach Trail（40-50min走完，可以直接下海，入口有restroom",
+            "🔹Extension Trail（70-80min走完，喜欢徒步的不能错过"
+          ],
+          "destination": "12600 N Torrey Pines Park Rd, La Jolla, CA 92037"
+        },
+        {
+          "id": "d2-03",
+          "time": "9:40–11:40 AM",
+          "title": "Torrey Pines",
+          "start": 580,
+          "end": 700,
+          "period": "morning",
+          "notes": [
+            "徒步2小时，走 Guy Fleming Trail 和 Razor Point Trail，欣赏海岸悬崖。"
+          ],
+          "destination": "12600 N Torrey Pines Park Rd, La Jolla, CA 92037"
+        },
+        {
+          "id": "d2-04",
+          "time": "11:40 AM–12:20 PM",
+          "title": "开车前往 Balboa Park",
+          "start": 700,
+          "end": 740,
+          "period": "afternoon",
+          "notes": [],
+          "destination": "Balboa Park San Diego"
+        },
+        {
+          "id": "d2-05",
+          "time": "12:20–1:10 PM",
+          "title": "Balboa Park",
+          "start": 740,
+          "end": 790,
+          "period": "afternoon",
+          "notes": [
+            "Lily Pond、《继承者们》取景地、建筑外观。"
+          ],
+          "destination": "Balboa Park San Diego"
+        },
+        {
+          "id": "d2-06",
+          "time": "1:10–1:50 PM",
+          "title": "午餐",
+          "start": 790,
+          "end": 830,
+          "period": "afternoon",
+          "notes": [],
+          "destination": null
+        },
+        {
+          "id": "d2-07",
+          "time": "1:50–2:20 PM",
+          "title": "开车前往 Coronado",
+          "start": 830,
+          "end": 860,
+          "period": "afternoon",
+          "notes": [],
+          "destination": "Coronado Beach"
+        },
+        {
+          "id": "d2-08",
+          "time": "2:20–3:05 PM",
+          "title": "Coronado Beach",
+          "start": 860,
+          "end": 905,
+          "period": "afternoon",
+          "notes": [
+            "海滩散步、Hotel del Coronado 外观拍照。"
+          ],
+          "destination": "Coronado Beach"
+        },
+        {
+          "id": "d2-09",
+          "time": "3:05–4:00 PM",
+          "title": "开车前往 Sunset Cliffs",
+          "start": 905,
+          "end": 960,
+          "period": "afternoon",
+          "notes": [],
+          "destination": "Sunset Cliffs Natural Park"
+        },
+        {
+          "id": "d2-10",
+          "time": "4:00–4:50 PM",
+          "title": "Sunset Cliffs",
+          "start": 960,
+          "end": 1010,
+          "period": "afternoon",
+          "notes": [
+            "海岸散步、拍照、看日落（约4:43 PM）。"
+          ],
+          "destination": "Sunset Cliffs Natural Park"
+        },
+        {
+          "id": "d2-11",
+          "time": "4:50–5:30 PM",
+          "title": "开车前往 Gaslamp Quarter",
+          "start": 1010,
+          "end": 1050,
+          "period": "afternoon",
+          "notes": [],
+          "destination": "Gaslamp Quarter San Diego"
+        },
+        {
+          "id": "d2-12",
+          "time": "5:30 PM以后",
+          "title": "Gaslamp Quarter",
+          "start": 1050,
+          "end": 1050,
+          "period": "afternoon",
+          "notes": [
+            "晚餐、逛街。"
+          ],
+          "destination": "Gaslamp Quarter San Diego"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "weekday": "周六",
+      "title": "从海风驶向沙漠",
+      "route": "San Diego → Joshua Tree",
+      "tagline": "海鲜市场 · 巨石步道 · 沙漠星空",
+      "intro": [],
+      "items": [
+        {
+          "id": "d3-01",
+          "time": "7:00–8:00 AM",
+          "title": "早餐、退房",
+          "start": 420,
+          "end": 480,
+          "period": "morning",
+          "notes": [
+            "在酒店吃早餐，收拾行李，办理退房。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d3-02",
+          "time": "8:00–9:00 AM",
+          "title": "Tuna Harbor Dockside Market",
+          "start": 480,
+          "end": 540,
+          "period": "morning",
+          "notes": [
+            "买新鲜海胆（Uni），逛海鲜市场。感恩节周末营业情况及海胆供应待确认。"
+          ],
+          "destination": "Tuna Harbor Dockside Market"
+        },
+        {
+          "id": "d3-03",
+          "time": "9:00 AM–12:30 PM",
+          "title": "开车前往 Joshua Tree",
+          "start": 540,
+          "end": 750,
+          "period": "afternoon",
+          "notes": [
+            "预计3–3.5小时，途中准备午餐、饮用水。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d3-04",
+          "time": "12:30–1:15 PM",
+          "title": "午餐、进入国家公园",
+          "start": 750,
+          "end": 795,
+          "period": "afternoon",
+          "notes": [
+            "从西入口进入，预留排队时间。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d3-05",
+          "time": "1:15–2:30 PM",
+          "title": "Hidden Valley Nature Trail",
+          "start": 795,
+          "end": 870,
+          "period": "afternoon",
+          "notes": [
+            "约1英里环形步道，欣赏巨石、约书亚树和沙漠风景。"
+          ],
+          "destination": "Hidden Valley Nature Trail Joshua Tree"
+        },
+        {
+          "id": "d3-06",
+          "time": "2:30–3:15 PM",
+          "title": "Skull Rock（可选）",
+          "start": 870,
+          "end": 915,
+          "period": "afternoon",
+          "notes": [
+            "拍照、短距离散步。如果时间紧，挪到周日。"
+          ],
+          "destination": "Skull Rock Joshua Tree"
+        },
+        {
+          "id": "d3-07",
+          "time": "3:15–4:45 PM",
+          "title": "Keys View 日落",
+          "start": 915,
+          "end": 1005,
+          "period": "afternoon",
+          "notes": [
+            "包含从 Skull Rock 开车前往 Keys View 的时间。建议4:00 PM左右抵达观景台。"
+          ],
+          "destination": "Keys View Joshua Tree"
+        },
+        {
+          "id": "d3-08",
+          "time": "4:45–6:00 PM",
+          "title": "晚餐、入住酒店",
+          "start": 1005,
+          "end": 1080,
+          "period": "afternoon",
+          "notes": [
+            "前往 Joshua Tree 镇或 Twentynine Palms。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d3-09",
+          "time": "7:00–8:00 PM",
+          "title": "观星",
+          "start": 1140,
+          "end": 1200,
+          "period": "evening",
+          "notes": [
+            "天气允许时，在安全的观星地点欣赏沙漠星空。"
+          ],
+          "destination": null
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "weekday": "周日",
+      "title": "仙人掌与山顶风景",
+      "route": "Joshua Tree → Palm Springs",
+      "tagline": "Skull Rock · Cholla · Aerial Tramway",
+      "intro": [
+        "这天建议上午继续游览 Joshua Tree，下午前往 Palm Springs。重点是 Skull Rock、Cholla Cactus Garden、Palm Springs Downtown 和 Aerial Tramway。"
+      ],
+      "items": [
+        {
+          "id": "d4-01",
+          "time": "7:30–8:30 AM",
+          "title": "早餐、退房",
+          "start": 450,
+          "end": 510,
+          "period": "morning",
+          "notes": [
+            "在 Joshua Tree 镇或 Twentynine Palms 吃早餐，办理退房。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d4-02",
+          "time": "8:30–9:15 AM",
+          "title": "开车前往 Skull Rock",
+          "start": 510,
+          "end": 555,
+          "period": "morning",
+          "notes": [
+            "具体车程取决于酒店位置。如果住 Twentynine Palms，通常更近。"
+          ],
+          "destination": "Skull Rock Joshua Tree"
+        },
+        {
+          "id": "d4-03",
+          "time": "9:15–10:00 AM",
+          "title": "Skull Rock",
+          "start": 555,
+          "end": 600,
+          "period": "morning",
+          "notes": [
+            "欣赏形状像骷髅头的巨石，拍照、短距离散步。"
+          ],
+          "destination": "Skull Rock Joshua Tree"
+        },
+        {
+          "id": "d4-04",
+          "time": "10:00–10:45 AM",
+          "title": "开车前往 Cholla Cactus Garden",
+          "start": 600,
+          "end": 645,
+          "period": "morning",
+          "notes": [
+            "沿途欣赏沙漠风景。"
+          ],
+          "destination": "Cholla Cactus Garden"
+        },
+        {
+          "id": "d4-05",
+          "time": "10:45–11:30 AM",
+          "title": "Cholla Cactus Garden",
+          "start": 645,
+          "end": 690,
+          "period": "morning",
+          "notes": [
+            "走约0.25英里的短步道，欣赏密集的仙人掌。注意不要触碰仙人掌。"
+          ],
+          "destination": "Cholla Cactus Garden"
+        },
+        {
+          "id": "d4-06",
+          "time": "11:30 AM–2:00 PM",
+          "title": "开车前往 Palm Springs",
+          "start": 690,
+          "end": 840,
+          "period": "afternoon",
+          "notes": [
+            "预计约2–2.5小时，具体取决于出园路线和交通。Cholla Cactus Garden 位于公园东侧，前往 Palm Springs 需要较长车程。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d4-07",
+          "time": "2:00–3:00 PM",
+          "title": "Palm Springs Downtown 午餐、逛街",
+          "start": 840,
+          "end": 900,
+          "period": "afternoon",
+          "notes": [
+            "在 Palm Canyon Drive 附近吃午餐，欣赏棕榈树街景、沙漠度假小镇建筑。"
+          ],
+          "destination": "Palm Canyon Drive Palm Springs"
+        },
+        {
+          "id": "d4-08",
+          "time": "3:00–3:30 PM",
+          "title": "开车前往 Palm Springs Aerial Tramway",
+          "start": 900,
+          "end": 930,
+          "period": "afternoon",
+          "notes": [],
+          "destination": "Palm Springs Aerial Tramway"
+        },
+        {
+          "id": "d4-09",
+          "time": "3:30–5:30 PM",
+          "title": "Palm Springs Aerial Tramway",
+          "start": 930,
+          "end": 1050,
+          "period": "afternoon",
+          "notes": [
+            "乘坐旋转缆车登上 San Jacinto Mountains，欣赏山谷和高山风景。",
+            "11月底山顶可能很冷，甚至有积雪。缆车排队时间和感恩节周末运营安排需要提前确认。"
+          ],
+          "destination": "Palm Springs Aerial Tramway"
+        },
+        {
+          "id": "d4-10",
+          "time": "5:30–6:00 PM",
+          "title": "返回 Palm Springs Downtown",
+          "start": 1050,
+          "end": 1080,
+          "period": "afternoon",
+          "notes": [],
+          "destination": "Palm Canyon Drive Palm Springs"
+        },
+        {
+          "id": "d4-11",
+          "time": "6:00 PM以后",
+          "title": "晚餐、酒店入住",
+          "start": 1080,
+          "end": 1080,
+          "period": "evening",
+          "notes": [
+            "在 Palm Springs 住一晚，晚上可以继续逛 Palm Canyon Drive。"
+          ],
+          "destination": null
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "weekday": "周一",
+      "title": "再看一眼圣地亚哥",
+      "route": "Palm Springs → San Diego → 纽约",
+      "tagline": "海港漫步 · 返程",
+      "intro": [
+        "这天晚上 10:35 PM 从 SAN 机场起飞，所以白天还有时间游览 San Diego。",
+        "建议上午9:00退房，9:30出发返回 San Diego。下午主要安排 Downtown 海港附近的景点，尽量减少绕路。"
+      ],
+      "items": [
+        {
+          "id": "d5-01",
+          "time": "8:00–9:00 AM",
+          "title": "早餐",
+          "start": 480,
+          "end": 540,
+          "period": "morning",
+          "notes": [
+            "在 Palm Springs 酒店或 Downtown 吃早餐。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d5-02",
+          "time": "9:00–9:30 AM",
+          "title": "酒店退房、整理行李",
+          "start": 540,
+          "end": 570,
+          "period": "morning",
+          "notes": [],
+          "destination": null
+        },
+        {
+          "id": "d5-03",
+          "time": "9:30 AM–12:30 PM",
+          "title": "开车返回 San Diego",
+          "start": 570,
+          "end": 750,
+          "period": "afternoon",
+          "notes": [
+            "从 Palm Springs 出发，预计车程约2.5–3小时。感恩节假期返程可能堵车，建议预留额外时间。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d5-04",
+          "time": "12:30–1:30 PM",
+          "title": "午餐",
+          "start": 750,
+          "end": 810,
+          "period": "afternoon",
+          "notes": [
+            "在 Downtown 或 Little Italy 附近吃午餐。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d5-05",
+          "time": "1:30–2:15 PM",
+          "title": "USS Midway 外观",
+          "start": 810,
+          "end": 855,
+          "period": "afternoon",
+          "notes": [
+            "在海港边拍摄航空母舰外观，不进入博物馆。"
+          ],
+          "destination": "USS Midway Museum"
+        },
+        {
+          "id": "d5-06",
+          "time": "2:15–2:45 PM",
+          "title": "胜利之吻雕像（Unconditional Surrender）",
+          "start": 855,
+          "end": 885,
+          "period": "afternoon",
+          "notes": [
+            "雕像就在 USS Midway 旁边，可以步行前往，拍照留念。"
+          ],
+          "destination": "Unconditional Surrender San Diego"
+        },
+        {
+          "id": "d5-07",
+          "time": "2:45–4:15 PM",
+          "title": "Seaport Village",
+          "start": 885,
+          "end": 975,
+          "period": "afternoon",
+          "notes": [
+            "沿着海港散步、逛商店、喝咖啡，欣赏 San Diego Bay 的风景。"
+          ],
+          "destination": "Seaport Village"
+        },
+        {
+          "id": "d5-08",
+          "time": "4:15–5:15 PM",
+          "title": "Downtown 自由活动",
+          "start": 975,
+          "end": 1035,
+          "period": "afternoon",
+          "notes": [
+            "可以继续逛 Embarcadero 海滨步道，或者去附近的咖啡馆休息。"
+          ],
+          "destination": "Embarcadero San Diego"
+        },
+        {
+          "id": "d5-09",
+          "time": "5:15–6:45 PM",
+          "title": "晚餐",
+          "start": 1035,
+          "end": 1125,
+          "period": "afternoon",
+          "notes": [
+            "在 Downtown 或 Little Italy 吃晚餐。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "d5-10",
+          "time": "6:45–7:30 PM",
+          "title": "取车、前往机场租车还车点",
+          "start": 1125,
+          "end": 1170,
+          "period": "evening",
+          "notes": [
+            "预留 Downtown 交通和加油时间。"
+          ],
+          "destination": "San Diego International Airport Rental Car Center"
+        },
+        {
+          "id": "d5-11",
+          "time": "7:30–8:00 PM",
+          "title": "机场还车",
+          "start": 1170,
+          "end": 1200,
+          "period": "evening",
+          "notes": [
+            "归还租车，乘坐接驳车前往航站楼（如适用）。"
+          ],
+          "destination": "San Diego International Airport Rental Car Center"
+        },
+        {
+          "id": "d5-12",
+          "time": "8:00–10:35 PM",
+          "title": "机场办理手续、候机",
+          "start": 1200,
+          "end": 1355,
+          "period": "evening",
+          "notes": [
+            "预留安检、托运行李和登机时间。"
+          ],
+          "destination": "San Diego International Airport"
+        },
+        {
+          "id": "d5-13",
+          "time": "10:35 PM",
+          "title": "SAN 起飞",
+          "start": 1355,
+          "end": 1355,
+          "period": "evening",
+          "notes": [
+            "经 Charlotte（CLT）转机返回纽约。"
+          ],
+          "destination": "San Diego International Airport"
+        }
+      ]
+    }
+  ]
+}
