@@ -1,0 +1,182 @@
+{
+  "balboa": {
+    "src": "images/balboa.jpg",
+    "alt": "Balboa Park 植物馆与睡莲池",
+    "credit": "Christian David",
+    "source": "https://commons.wikimedia.org/wiki/File:Lily_pond_and_Botanical_Building_with_flowerbed,_Balboa_Park,_San_Diego,_California.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "coronado": {
+    "src": "images/coronado.jpg",
+    "alt": "Coronado Beach 宽阔的沙滩与海岸",
+    "credit": "Antony-22",
+    "source": "https://commons.wikimedia.org/wiki/File:Coronado_Beach_2018.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "torrey-pines": {
+    "src": "images/torrey-pines.jpg",
+    "alt": "Torrey Pines 海滩与海岸悬崖",
+    "credit": "Francis Lee\n\nOriginal uploader was Phier at en.wikipedia",
+    "source": "https://commons.wikimedia.org/wiki/File:TorreyPinesBeach2008.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "scripps": {
+    "src": "images/scripps.jpg",
+    "alt": "Scripps Pier 桥墩延伸入海的透视构图",
+    "credit": "Gankbank789",
+    "source": "https://commons.wikimedia.org/wiki/File:Underneath_Scripps_Pier.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "la-jolla": {
+    "src": "images/la-jolla.jpg",
+    "alt": "La Jolla Cove 的岩石海岸",
+    "credit": "Rickbramhall",
+    "source": "https://commons.wikimedia.org/wiki/File:La_Jolla_Cove_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "sunset-cliffs": {
+    "src": "images/sunset-cliffs.jpg",
+    "alt": "Sunset Cliffs 海岸悬崖与落日余晖",
+    "credit": "Tuxyso",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_San_Diego_2013.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "little-italy": {
+    "src": "images/little-italy.jpg",
+    "alt": "San Diego Little Italy 街区入口标志",
+    "credit": "Jon Sullivan / PD Photo.org；Gennaro Prota 修图（Wikimedia Commons）",
+    "source": "https://commons.wikimedia.org/wiki/File:Little_Italy_Sign_in_San_Diego.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "gaslamp": {
+    "src": "images/gaslamp.jpg",
+    "alt": "Gaslamp Quarter 拱门和历史街区",
+    "credit": "Bernard Gagnon",
+    "source": "https://commons.wikimedia.org/wiki/File:Gaslamp_Quarter_02.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "hidden-valley": {
+    "src": "images/hidden-valley.jpg",
+    "alt": "Hidden Valley 巨石环绕的沙漠步道",
+    "credit": "David Balmer",
+    "source": "https://commons.wikimedia.org/wiki/File:Hidden_Valley_Trail_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "skull-rock": {
+    "src": "images/skull-rock.jpg",
+    "alt": "Joshua Tree 的 Skull Rock 骷髅状巨石",
+    "credit": "డా. గన్నవరపు నరసింహమూర్తి",
+    "source": "https://commons.wikimedia.org/wiki/File:Skull_Rock,_Joshua_Tree_National_Park.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "cholla": {
+    "src": "images/cholla.jpg",
+    "alt": "Cholla Cactus Garden 仙人掌群落",
+    "credit": "Steven Lek",
+    "source": "https://commons.wikimedia.org/wiki/File:Cholla_Cactus_Garden_Joshua_Tree_National_Park_2019_9.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "palm-downtown": {
+    "src": "images/palm-downtown.jpg",
+    "alt": "Palm Springs Downtown 的棕榈树街景",
+    "credit": "Patrick Pelster",
+    "source": "https://commons.wikimedia.org/wiki/File:Downtown_Palm_Springs_CA.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "tramway": {
+    "src": "images/tramway.jpg",
+    "alt": "Palm Springs Aerial Tramway 缆车与山壁",
+    "credit": "Don Graham from Redlands, CA, USA - God bless it!",
+    "source": "https://commons.wikimedia.org/wiki/File:We%27ve_got_to_stop_meeting_like_this,_Palm_Springs_Aerial_Tramway,_CA_2015_(26151516883).jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "statue": {
+    "src": "images/statue.jpg",
+    "alt": "San Diego 胜利之吻雕像",
+    "credit": "rosalynn carmen",
+    "source": "https://commons.wikimedia.org/wiki/File:The_%22Unconditional_Surrender,%22_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "seaport": {
+    "src": "images/seaport.jpg",
+    "alt": "Seaport Village 建筑街景",
+    "credit": "https://www.flickr.com/photos/kid_pro_quo/",
+    "source": "https://commons.wikimedia.org/wiki/File:SeaportVillage.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "uni": {
+    "src": "images/uni.jpg",
+    "alt": "新鲜剖开的海胆与海胆黄（食材参考，非市场现场）",
+    "credit": "Portum",
+    "source": "https://commons.wikimedia.org/wiki/File:Sea_urchin_eggs.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "hotel-del": {
+    "src": "images/hotel-del.jpg",
+    "alt": "Hotel del Coronado 红屋顶历史酒店与海滩",
+    "credit": "Ctorbann",
+    "source": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_03.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "keys-view": {
+    "src": "images/keys-view.jpg",
+    "alt": "Keys View 俯瞰 Coachella Valley",
+    "credit": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+    "source": "https://commons.wikimedia.org/wiki/File:Joshua_tree_keys_view_pano_more_vertical.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "midway": {
+    "src": "images/midway.jpg",
+    "alt": "停泊于 San Diego 的 USS Midway 航母外观",
+    "credit": "Michael W. Kolton",
+    "source": "https://commons.wikimedia.org/wiki/File:USS_Midway_in_San_Diego.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "缩放至网页尺寸，未改变照片内容"
+  },
+  "tuna-market": {
+    "src": "https://images.squarespace-cdn.com/content/v1/5e73db0648933135a78e1971/1591636657101-PM574BB10R5SHZRFSIMH/_mo1eLGQ.jpeg?format=1000w",
+    "alt": "Tuna Harbor Dockside Market 官网所展示的海鲜摊位与选购现场",
+    "credit": "Tuna Harbor Dockside Market 官网",
+    "source": "https://www.thdocksidemarket.com/san-diego",
+    "license": "官网参考图片；版权归原作者",
+    "licenseUrl": "",
+    "changes": "远程参考图片，未修改；未作为开放授权照片保存到本仓库"
+  }
+}

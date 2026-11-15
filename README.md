@@ -4,8 +4,8 @@
 
 ## 当前行程
 
-- 南加州五日自驾：2026-11-26 至 2026-11-30，San Diego / Joshua Tree / Palm Springs，共 54 项。
-- 保留完整时间、备注和 Torrey Pines 四条步道资料。
+- 南加州五日自驾：2026-11-26 至 2026-11-30，San Diego / Joshua Tree / Palm Springs，共 55 项。
+- 按2026-11-14最新清单调整顺序；Torrey Pines四条旧步道资料留在详情中，标明施工期间不安排。
 - 支持日期 tabs、Google Maps 导航、勾选完成、收起已完成事项、本地保存。
 
 ## 文件结构
@@ -39,9 +39,22 @@ trips/san-deigo/
 - 新增城市：复制现有旅行目录为新目录，更新行程 JSON、页面标题和文案；将新目录的 app.js 中 KEY 改为独立键名，避免完成状态与其他旅行冲突。
 - 在 `data/trips.json` 添加新旅行的 title、route、dates 和相对 url，首页自动显示。
 - 事项 id 必须唯一且稳定，调整时间或文案不要修改 id。新增活动使用新 id。
-- time 为原文展示；事项按数组顺序连续显示，不区分上午、下午或晚上。start/end 和 period 为历史数据字段，不影响显示。
+- time 为页面显示时间；事项按数组顺序连续显示，不区分上午、下午或晚上。start/end为当地午夜起分钟数，end用于“收起上午行程”（不晚于12 PM结束）；不设上午/下午分组标题。
 - notes 为备注数组；destination 为地图目的地，不明确时设为 null。
 
-进度按浏览器保存，不跨设备同步，清理站点数据会清除进度。时间及待确认的营业、交通信息按原行程保留。JFK 出发为纽约时间，加州行程为太平洋时间。
+进度按浏览器保存，不跨设备同步，清理站点数据会清除进度。用户指定时间予以保留，其余时段和车程标注为规划估算；营业及道路情况出发前复核。JFK 出发为纽约时间，加州行程为太平洋时间。
 
 旧地址 `trips/southern-california-2026/` 自动跳转到 `trips/san-deigo/`；日期链接和本地完成记录保留。
+
+
+## 2026-11-14 行程内容更新
+
+固定安排：11/26 Balboa Park 14:00–15:00；11/27 Gaslamp 17:30后；11/28市场08:00–09:00，Hidden Valley → Skull Rock → Keys View；周六住Joshua Tree Town（酒店未定）；周日仅Cholla后去Palm Springs，缆车15:15–18:15预留3小时；11/30 USS Midway只看外观，22:35 SAN起飞。
+
+其他新时间段和车程为规划估算。每个景点详情默认关闭，展开后显示照片、中文介绍、地址、停车导航和官方来源。点击“展开全部”同时取消隐藏上午/已完成并展开当前日期详情。完成状态的旧存储键保持不变，移动到另一天的同一景点保留id。
+
+新增JSON字段：kind（sight/drive/activity）、description、address、duration、parking数组（name/destination/fee）、details数组、sources数组（label/url）、photos数组（src/alt/credit/source/license/licenseUrl/changes）、next（title/time/mode）。photos和来源独立于展示代码，后续可直接编辑。
+
+信息核对截至2026-11-14：Balboa感恩节停车收费豁免、植物馆城市假日闭馆；Torrey Pines自然保护区施工至2027年2月，海滩仍开放；缆车2026感恩节时段及票价/停车费已查官方。市场11/28是否营业及海胆供应尚未确认；NPS道路动态入口已检查，出发前须再查封闭地图，不能保证旅行日道路开放。
+
+照片许可、来源和缩放说明见 `trips/san-deigo/data/photo-credits.json` 及图片下方署名；市场使用官网远程参考图，可能受外站可用性影响。

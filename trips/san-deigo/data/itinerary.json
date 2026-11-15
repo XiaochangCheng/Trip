@@ -1,13 +1,15 @@
 {
-  "title": "南加州 · 五日公路旅行",
+  "title": "San Deigo",
   "days": [
     {
       "date": "2026-11-26",
       "weekday": "周四",
-      "title": "Scripps Pier · La Jolla Cove · Little Italy",
+      "title": "Balboa Park → Coronado Beach → Little Italy",
       "route": "San Diego",
-      "tagline": "Scripps Pier · La Jolla Cove · Little Italy",
-      "intro": [],
+      "tagline": "Balboa Park → Coronado Beach → Little Italy",
+      "intro": [
+        "固定：Balboa Park 2–3 PM。其余新增时段为按最终顺序安排的预计时间，可随落地、取车及交通调整。"
+      ],
       "items": [
         {
           "id": "d1-01",
@@ -15,9 +17,9 @@
           "title": "JFK → SAN",
           "start": 480,
           "end": 678,
-          "period": "morning",
           "notes": [],
-          "destination": null
+          "destination": null,
+          "kind": "activity"
         },
         {
           "id": "d1-02",
@@ -25,69 +27,153 @@
           "title": "机场取车出发",
           "start": 720,
           "end": 750,
-          "period": "afternoon",
           "notes": [],
-          "destination": "San Diego International Airport Rental Car Center"
+          "destination": "San Diego International Airport Rental Car Center",
+          "kind": "activity"
         },
         {
-          "id": "d1-03",
-          "time": "1:30–2:05 PM",
-          "title": "从 Downtown 开车前往 Scripps Pier",
+          "id": "thu-lunch",
+          "time": "12:30–1:30 PM",
+          "title": "午餐、行李安排",
+          "start": 750,
+          "end": 810,
+          "kind": "activity",
+          "notes": [
+            "新增预计时段：在 Downtown 附近午餐；酒店尚未确认，行李安排以实际为准。"
+          ],
+          "destination": null
+        },
+        {
+          "id": "thu-balboa-drive",
+          "time": "1:30–2:00 PM",
+          "title": "前往 Balboa Park",
           "start": 810,
-          "end": 845,
-          "period": "afternoon",
+          "end": 840,
+          "kind": "drive",
           "notes": [
-            "车程约25–35分钟。"
+            "预计车程，含适量停车缓冲；实际以当天导航为准。"
           ],
-          "destination": "Scripps Pier San Diego"
+          "destination": "Casa de Balboa Parking Lot San Diego"
         },
         {
-          "id": "d1-04",
-          "time": "2:05–2:40 PM",
-          "title": "Scripps Pier",
-          "start": 845,
-          "end": 880,
-          "period": "afternoon",
-          "notes": [
-            "在海滩拍栈桥、海岸线。"
-          ],
-          "destination": "Scripps Pier San Diego"
-        },
-        {
-          "id": "d1-05",
-          "time": "2:40–3:00 PM",
-          "title": "开车前往 La Jolla Cove",
-          "start": 880,
+          "id": "d2-05",
+          "time": "2:00–3:00 PM",
+          "title": "Balboa Park",
+          "start": 840,
           "end": 900,
-          "period": "afternoon",
-          "notes": [
-            "包含寻找停车位的预估时间。"
+          "kind": "sight",
+          "notes": [],
+          "destination": "Botanical Building, 1549 El Prado, San Diego, CA 92101",
+          "photoKey": "balboa",
+          "description": "从 Lily Pond 对岸望过去，Botanical Building 的木格栅与水中倒影形成公园最经典的画面。沿 El Prado 走向拱廊和广场，可以在同一小时内看见西班牙殖民复兴风格的建筑与 California Tower；这次以建筑外观、池畔和主街散步为主。",
+          "address": "Botanical Building, 1549 El Prado, San Diego, CA 92101",
+          "parking": [
+            {
+              "name": "Casa de Balboa Parking Lot",
+              "destination": "Casa de Balboa Parking Lot, San Diego, CA",
+              "fee": "11/26 感恩节：市政府公布的停车收费豁免日。平日非居民 $10/4小时、$16/全天；以现场标识为准。"
+            }
           ],
-          "destination": "La Jolla Cove"
+          "duration": "1 小时",
+          "sources": [
+            {
+              "label": "市政府停车政策",
+              "url": "https://www.sandiego.gov/parking/balboapark"
+            },
+            {
+              "label": "Botanical Building 开放信息",
+              "url": "https://balboaparkbotanical.org/"
+            }
+          ],
+          "details": [
+            "游览顺序：Botanical Building + Lily Pond（《继承者们》取景地，按你的备注保留）→ El Prado（公园主街 / Main Promenade）→ California Tower → Plaza de Panama。内部小景点不单独拆分时间。",
+            "Botanical Building 官方说明城市假日闭馆：感恩节按外观与 Lily Pond 拍照安排，不承诺进入室内。California Tower 仅看外观。"
+          ],
+          "next": {
+            "title": "Coronado Beach",
+            "time": "约20–30分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/balboa.jpg",
+              "alt": "Balboa Park 植物馆与睡莲池",
+              "credit": "Christian David",
+              "source": "https://commons.wikimedia.org/wiki/File:Lily_pond_and_Botanical_Building_with_flowerbed,_Balboa_Park,_San_Diego,_California.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
-          "id": "d1-06",
-          "time": "3:00–4:00 PM",
-          "title": "La Jolla Cove",
+          "id": "thu-coronado-drive",
+          "time": "3:00–3:30 PM",
+          "title": "前往 Coronado Beach",
           "start": 900,
-          "end": 960,
-          "period": "afternoon",
+          "end": 930,
+          "kind": "drive",
           "notes": [
-            "看海狮、沿海岸散步、拍照。"
+            "预计车程，含适量停车缓冲；实际以当天导航为准。"
           ],
-          "destination": "La Jolla Cove"
+          "destination": "Ocean Boulevard & R H Dana Place, Coronado, CA"
         },
         {
-          "id": "d1-07",
-          "time": "4:00–4:45 PM",
-          "title": "La Jolla 海边看日落",
-          "start": 960,
+          "id": "d2-08",
+          "time": "3:30–4:45 PM",
+          "title": "Coronado Beach · Hotel del Coronado",
+          "start": 930,
           "end": 1005,
-          "period": "afternoon",
-          "notes": [
-            "沿 Coast Boulevard 往西寻找视野开阔的观景点。日落约4:43 PM。"
+          "kind": "sight",
+          "notes": [],
+          "destination": "Ocean Boulevard & R H Dana Place, Coronado, CA 92118",
+          "photoKey": "coronado",
+          "description": "这里是一整片开阔、细腻的沙滩，适合沿着浪线散步，让海面和天空占据照片的大部分画面。南侧红屋顶的 Hotel del Coronado 给海滩添了醒目的历史建筑背景。它与 La Jolla Cove 的岩礁、小海湾和海狮观景体验不同，重点是宽阔沙岸和酒店外观。",
+          "address": "Ocean Boulevard & R H Dana Place, Coronado, CA 92118",
+          "parking": [
+            {
+              "name": "Ocean Boulevard 沿海路边车位",
+              "destination": "Ocean Boulevard & R H Dana Place, Coronado, CA",
+              "fee": "游客中心标注 Ocean Boulevard 有免费路边停车；遵守各路段时限、红线与临时标牌。"
+            }
           ],
-          "destination": "Coast Boulevard La Jolla"
+          "duration": "约75分钟",
+          "sources": [
+            {
+              "label": "Coronado 游客中心",
+              "url": "https://coronadovisitorcenter.com/listings/coronado-central-beach/"
+            }
+          ],
+          "details": [
+            "Hotel del Coronado：1500 Orange Ave, Coronado, CA 92118。本次看外观，不预订酒店或进入收费设施。"
+          ],
+          "next": {
+            "title": "Little Italy",
+            "time": "约25–40分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/coronado.jpg",
+              "alt": "Coronado Beach 宽阔的沙滩与海岸",
+              "credit": "Antony-22",
+              "source": "https://commons.wikimedia.org/wiki/File:Coronado_Beach_2018.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            },
+            {
+              "src": "images/hotel-del.jpg",
+              "alt": "Hotel del Coronado 红屋顶历史酒店与海滩",
+              "credit": "Ctorbann",
+              "source": "https://commons.wikimedia.org/wiki/File:Hotel_Del_Coronado_03.JPG",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
           "id": "d1-08",
@@ -95,33 +181,64 @@
           "title": "开车返回 Little Italy",
           "start": 1005,
           "end": 1050,
-          "period": "afternoon",
+          "kind": "drive",
           "notes": [
-            "车程及停车预留约45分钟。"
+            "预计25–40分钟车程，另留找车位时间。"
           ],
           "destination": "Little Italy San Diego"
         },
         {
           "id": "d1-09",
           "time": "5:30 PM以后",
-          "title": "Little Italy",
+          "title": "Little Italy · 晚餐",
           "start": 1050,
-          "end": 1050,
-          "period": "afternoon",
-          "notes": [
-            "晚餐、逛街。感恩节当天需提前确认餐厅营业。"
+          "end": 1170,
+          "kind": "sight",
+          "notes": [],
+          "destination": "Piazza della Famiglia, 523 W Date St, San Diego, CA 92101",
+          "photoKey": "little-italy",
+          "description": "India Street 两侧的餐厅和露天座位集中，适合落地第一晚边走边找晚餐。可以在 Piazza della Famiglia 附近停留，拍街景、广场与餐厅灯光。",
+          "address": "Piazza della Famiglia, 523 W Date St, San Diego, CA 92101",
+          "parking": [
+            {
+              "name": "街区官方停车选项",
+              "destination": "Little Italy San Diego Parking",
+              "fee": "街边计费车位及商业车库；感恩节车库和餐厅营业、收费各自确认，不套用 Balboa Park 的免费政策。"
+            }
           ],
-          "destination": "Little Italy San Diego"
+          "duration": "晚餐与散步约1.5–2小时",
+          "sources": [
+            {
+              "label": "Little Italy 官方停车指南",
+              "url": "https://www.littleitalysd.com/parking/self-parking"
+            }
+          ],
+          "details": [
+            "感恩节当天需提前确认餐厅营业并按需预约。酒店尚未选定。"
+          ],
+          "photos": [
+            {
+              "src": "images/little-italy.jpg",
+              "alt": "San Diego Little Italy 街区入口标志",
+              "credit": "Jon Sullivan / PD Photo.org；Gennaro Prota 修图（Wikimedia Commons）",
+              "source": "https://commons.wikimedia.org/wiki/File:Little_Italy_Sign_in_San_Diego.jpg",
+              "license": "Public domain",
+              "licenseUrl": "",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         }
       ]
     },
     {
       "date": "2026-11-27",
       "weekday": "周五",
-      "title": "Torrey Pines · Balboa Park · Coronado · Sunset Cliffs · Gaslamp Quarter",
+      "title": "Torrey Pines State Beach → Scripps Pier → La Jolla Cove → Sunset Cliffs → Gaslamp Quarter",
       "route": "San Diego",
-      "tagline": "Torrey Pines · Balboa Park · Coronado · Sunset Cliffs · Gaslamp Quarter",
-      "intro": [],
+      "tagline": "Torrey Pines State Beach → Scripps Pier → La Jolla Cove → Sunset Cliffs → Gaslamp Quarter",
+      "intro": [
+        "Torrey Pines 只游览 State Beach：自然保护区步道施工关闭。Gaslamp Quarter 保持5:30 PM以后。"
+      ],
       "items": [
         {
           "id": "d2-01",
@@ -129,149 +246,330 @@
           "title": "早餐",
           "start": 495,
           "end": 540,
-          "period": "morning",
           "notes": [
             "在酒店或 Little Italy 附近吃早餐。"
           ],
-          "destination": null
+          "destination": null,
+          "kind": "activity"
         },
         {
           "id": "d2-02",
           "time": "9:00–9:40 AM",
-          "title": "开车前往 Torrey Pines",
+          "title": "前往 Torrey Pines State Beach",
           "start": 540,
           "end": 580,
-          "period": "morning",
+          "kind": "drive",
           "notes": [
-            "从 Downtown 出发，预留40分钟。",
-            "🅿️12600 N Torrey Pines Park Rd, LA Jolla, CA 92037",
-            "🚶徒步步道",
-            "🔹Guy Fleming Trail（20-30min走完，俯瞰大海，甚至直接坐着发呆",
-            "🔹Razor Point Trail（30-40min走完，途径制高点",
-            "🔹Beach Trail（40-50min走完，可以直接下海，入口有restroom",
-            "🔹Extension Trail（70-80min走完，喜欢徒步的不能错过"
+            "预计车程，含适量停车缓冲；实际以当天导航为准。"
           ],
-          "destination": "12600 N Torrey Pines Park Rd, La Jolla, CA 92037"
+          "destination": "Torrey Pines State Beach South Beach Parking"
         },
         {
-          "id": "d2-03",
-          "time": "9:40–11:40 AM",
-          "title": "Torrey Pines",
+          "id": "fri-torrey-beach",
+          "time": "9:40–10:40 AM",
+          "title": "Torrey Pines State Beach",
           "start": 580,
-          "end": 700,
-          "period": "morning",
-          "notes": [
-            "徒步2小时，走 Guy Fleming Trail 和 Razor Point Trail，欣赏海岸悬崖。"
-          ],
-          "destination": "12600 N Torrey Pines Park Rd, La Jolla, CA 92037"
-        },
-        {
-          "id": "d2-04",
-          "time": "11:40 AM–12:20 PM",
-          "title": "开车前往 Balboa Park",
-          "start": 700,
-          "end": 740,
-          "period": "afternoon",
+          "end": 640,
+          "kind": "sight",
           "notes": [],
-          "destination": "Balboa Park San Diego"
-        },
-        {
-          "id": "d2-05",
-          "time": "12:20–1:10 PM",
-          "title": "Balboa Park",
-          "start": 740,
-          "end": 790,
-          "period": "afternoon",
-          "notes": [
-            "Lily Pond、《继承者们》取景地、建筑外观。"
+          "destination": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
+          "photoKey": "torrey-pines",
+          "description": "海浪沿着长长的沙岸铺开，背后是浅色海崖，适合拍海岸线和开阔海面。此次只在开放的 State Beach 区域散步，不安排上山步道；这与原先在保护区俯瞰悬崖的徒步计划不同。",
+          "address": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
+          "parking": [
+            {
+              "name": "South Beach Lot",
+              "destination": "Torrey Pines State Beach South Beach Parking, 12600 N Torrey Pines Rd, La Jolla, CA",
+              "fee": "官方日用停车 $15–25/车，随需求浮动；现场收费为准。"
+            }
           ],
-          "destination": "Balboa Park San Diego"
+          "duration": "约1小时",
+          "sources": [
+            {
+              "label": "州立公园开放与停车公告",
+              "url": "https://www.parks.ca.gov/?page_id=31836"
+            }
+          ],
+          "details": [
+            "已核实：保护区道路、上层停车场及步道于 2026/9/22 至 2027/2 施工关闭，预计 2027/3/1 恢复全面开放；南北海滩停车场和 State Beach 保持开放。出发前再查临时公告、潮汐和海况。",
+            "原步道资料（保留参考，本次不安排）：Guy Fleming Trail 20–30分钟、俯瞰大海；Razor Point Trail 30–40分钟、经过制高点；Beach Trail 40–50分钟、通向海滩、入口有洗手间；Extension Trail 70–80分钟。以上为旧计划估时，不能据此判断目前开放。"
+          ],
+          "next": {
+            "title": "Scripps Pier / La Jolla Shores",
+            "time": "约15–25分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/torrey-pines.jpg",
+              "alt": "Torrey Pines 海滩与海岸悬崖",
+              "credit": "Francis Lee\n\nOriginal uploader was Phier at en.wikipedia",
+              "source": "https://commons.wikimedia.org/wiki/File:TorreyPinesBeach2008.jpg",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
-          "id": "d2-06",
-          "time": "1:10–1:50 PM",
-          "title": "午餐",
-          "start": 790,
-          "end": 830,
-          "period": "afternoon",
+          "id": "fri-scripps-drive",
+          "time": "10:40–11:05 AM",
+          "title": "前往 Scripps Pier",
+          "start": 640,
+          "end": 665,
+          "kind": "drive",
+          "notes": [
+            "预计车程，含适量停车缓冲；实际以当天导航为准。"
+          ],
+          "destination": "La Jolla Shores Beach Parking Lot"
+        },
+        {
+          "id": "d1-04",
+          "time": "11:05 AM–12:00 PM",
+          "title": "Scripps Pier",
+          "start": 665,
+          "end": 720,
+          "kind": "sight",
           "notes": [],
+          "destination": "Scripps Pier, La Jolla, CA 92037",
+          "photoKey": "scripps",
+          "description": "从海滩向栈桥望去，一排排桥柱形成很强的透视线条；退后一些也能拍到栈桥伸入太平洋的全景。这里安排海滩拍照与步行，不把研究栈桥本身当作公共步道。",
+          "address": "Scripps Pier, La Jolla, CA 92037",
+          "parking": [
+            {
+              "name": "La Jolla Shores 公共海滩停车场",
+              "destination": "La Jolla Shores Beach Parking Lot, Camino del Oro, La Jolla, CA",
+              "fee": "优先公共海滩停车，具体收费/时限按现场标识；UCSD 校园车位另有许可要求，不随意停入。"
+            }
+          ],
+          "duration": "约55分钟（含从停车点步行）",
+          "sources": [
+            {
+              "label": "UCSD 地图与停车",
+              "url": "https://scripps.ucsd.edu/about/maps"
+            }
+          ],
+          "details": [
+            "停车后沿海滩向北走，预留单程约15–20分钟。涨潮或海浪较大时改在安全陆侧观景。"
+          ],
+          "next": {
+            "title": "La Jolla Cove（午餐后）",
+            "time": "约15–25分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/scripps.jpg",
+              "alt": "Scripps Pier 桥墩延伸入海的透视构图",
+              "credit": "Gankbank789",
+              "source": "https://commons.wikimedia.org/wiki/File:Underneath_Scripps_Pier.jpg",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
+        },
+        {
+          "id": "fri-lunch",
+          "time": "12:00–1:00 PM",
+          "title": "La Jolla Shores 附近午餐",
+          "start": 720,
+          "end": 780,
+          "kind": "activity",
+          "notes": [
+            "预计时段；餐厅未选定。"
+          ],
           "destination": null
         },
         {
-          "id": "d2-07",
-          "time": "1:50–2:20 PM",
-          "title": "开车前往 Coronado",
-          "start": 830,
-          "end": 860,
-          "period": "afternoon",
-          "notes": [],
-          "destination": "Coronado Beach"
-        },
-        {
-          "id": "d2-08",
-          "time": "2:20–3:05 PM",
-          "title": "Coronado Beach",
-          "start": 860,
-          "end": 905,
-          "period": "afternoon",
+          "id": "d1-05",
+          "time": "1:00–1:25 PM",
+          "title": "前往 La Jolla Cove",
+          "start": 780,
+          "end": 805,
+          "kind": "drive",
           "notes": [
-            "海滩散步、Hotel del Coronado 外观拍照。"
+            "预计车程，含适量停车缓冲；实际以当天导航为准。"
           ],
-          "destination": "Coronado Beach"
+          "destination": "1100 Coast Boulevard, La Jolla, CA"
         },
         {
-          "id": "d2-09",
-          "time": "3:05–4:00 PM",
-          "title": "开车前往 Sunset Cliffs",
-          "start": 905,
-          "end": 960,
-          "period": "afternoon",
+          "id": "d1-06",
+          "time": "1:25–2:45 PM",
+          "title": "La Jolla Cove",
+          "start": 805,
+          "end": 885,
+          "kind": "sight",
           "notes": [],
-          "destination": "Sunset Cliffs Natural Park"
+          "destination": "1100 Coast Blvd, La Jolla, CA 92037",
+          "photoKey": "la-jolla",
+          "description": "小海湾被岩石和海崖围起来，岸边步道可以俯看海水拍打礁石，也常能远远看到海狮。照片重点是岩礁、蓝绿色海水和曲折岸线，与 Coronado 的宽阔细沙滩形成明显区别。",
+          "address": "1100 Coast Blvd, La Jolla, CA 92037",
+          "parking": [
+            {
+              "name": "Coast Boulevard 合法路边车位",
+              "destination": "1100 Coast Blvd, La Jolla, CA",
+              "fee": "有免费限时路边车位，按当日标牌；车满可用村内收费车库，价格现场确认。"
+            }
+          ],
+          "duration": "约80分钟",
+          "sources": [
+            {
+              "label": "La Jolla Cove 游览信息",
+              "url": "https://lajolla.ca/blog/activities-blog/visit-la-jolla-cove-ca-guide/"
+            }
+          ],
+          "details": [
+            "沿岸观景并与海狮保持距离，不跨越临时封闭区域；停车与步行时间已留缓冲。"
+          ],
+          "next": {
+            "title": "Sunset Cliffs",
+            "time": "约40–60分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/la-jolla.jpg",
+              "alt": "La Jolla Cove 的岩石海岸",
+              "credit": "Rickbramhall",
+              "source": "https://commons.wikimedia.org/wiki/File:La_Jolla_Cove_2.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
+        },
+        {
+          "id": "fri-cliffs-drive",
+          "time": "2:45–3:45 PM",
+          "title": "前往 Sunset Cliffs",
+          "start": 885,
+          "end": 945,
+          "kind": "drive",
+          "notes": [
+            "预计车程，含适量停车缓冲；实际以当天导航为准。"
+          ],
+          "destination": "Sunset Cliffs Boulevard & Ladera Street, San Diego, CA"
         },
         {
           "id": "d2-10",
-          "time": "4:00–4:50 PM",
-          "title": "Sunset Cliffs",
-          "start": 960,
+          "time": "3:45–4:50 PM",
+          "title": "Sunset Cliffs · 日落",
+          "start": 945,
           "end": 1010,
-          "period": "afternoon",
-          "notes": [
-            "海岸散步、拍照、看日落（约4:43 PM）。"
+          "kind": "sight",
+          "notes": [],
+          "destination": "Sunset Cliffs Blvd & Ladera St, San Diego, CA",
+          "photoKey": "sunset-cliffs",
+          "description": "海崖与海蚀岩层沿海展开，傍晚的低角度阳光会把岩壁染暖。沿崖顶选择视野开阔的地方，看太阳落向海平线；适合拍海崖轮廓与大面积天空。",
+          "address": "Sunset Cliffs Blvd & Ladera St, San Diego, CA",
+          "parking": [
+            {
+              "name": "Ladera Street 周边公共车位",
+              "destination": "Sunset Cliffs Natural Park Ladera Street Parking",
+              "fee": "市政府列有路边及小型停车场；收费与开放时段以现场标识为准。"
+            }
           ],
-          "destination": "Sunset Cliffs Natural Park"
+          "duration": "约65分钟",
+          "sources": [
+            {
+              "label": "市政府公园信息",
+              "url": "https://www.sandiego.gov/park-and-recreation/parks/regional/shoreline/sunset"
+            }
+          ],
+          "details": [
+            "日落原计划约4:43 PM，提前抵达留出找车位时间。只走安全崖顶步道，不靠近松动边缘。Ocean Beach 不列入行程。"
+          ],
+          "next": {
+            "title": "Gaslamp Quarter",
+            "time": "约25–40分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/sunset-cliffs.jpg",
+              "alt": "Sunset Cliffs 海岸悬崖与落日余晖",
+              "credit": "Tuxyso",
+              "source": "https://commons.wikimedia.org/wiki/File:Sunset_Cliffs_San_Diego_2013.jpg",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
           "id": "d2-11",
           "time": "4:50–5:30 PM",
-          "title": "开车前往 Gaslamp Quarter",
+          "title": "前往 Gaslamp Quarter",
           "start": 1010,
           "end": 1050,
-          "period": "afternoon",
-          "notes": [],
-          "destination": "Gaslamp Quarter San Diego"
+          "kind": "drive",
+          "notes": [
+            "预计车程，含适量停车缓冲；实际以当天导航为准。"
+          ],
+          "destination": "Park It On Market, 614 Market St, San Diego, CA"
         },
         {
           "id": "d2-12",
           "time": "5:30 PM以后",
-          "title": "Gaslamp Quarter",
+          "title": "Gaslamp Quarter · 晚餐与夜间散步",
           "start": 1050,
-          "end": 1050,
-          "period": "afternoon",
-          "notes": [
-            "晚餐、逛街。"
+          "end": 1170,
+          "kind": "sight",
+          "notes": [],
+          "destination": "Fifth Avenue & L Street, San Diego, CA 92101",
+          "photoKey": "gaslamp",
+          "description": "这里是 San Diego Downtown 著名的历史建筑和夜生活街区，维多利亚式立面与餐厅灯光交织在一起。Fifth Avenue 是最值得逛的主街，走到 Fifth Avenue 与 L Street 附近的 Gaslamp Quarter Arch，晚上亮灯后很适合拍照。",
+          "address": "Fifth Avenue & L Street, San Diego, CA 92101",
+          "parking": [
+            {
+              "name": "Park It On Market Garage",
+              "destination": "614 Market St, San Diego, CA 92101",
+              "fee": "收费停车场；实际费用以当天为准。"
+            },
+            {
+              "name": "备选：6th & K Parkade",
+              "destination": "289 Sixth Ave, San Diego, CA 92101",
+              "fee": "收费停车场；实际费用以当天为准。"
+            }
           ],
-          "destination": "Gaslamp Quarter San Diego"
+          "duration": "晚餐与散步约1.5–2小时",
+          "sources": [
+            {
+              "label": "Gaslamp 官方停车指南",
+              "url": "https://gaslamp.org/transportation/"
+            }
+          ],
+          "details": [
+            "游览顺序：Fifth Avenue（主街）→ 维多利亚式历史建筑街景 → Gaslamp Quarter Arch → 晚餐。"
+          ],
+          "photos": [
+            {
+              "src": "images/gaslamp.jpg",
+              "alt": "Gaslamp Quarter 拱门和历史街区",
+              "credit": "Bernard Gagnon",
+              "source": "https://commons.wikimedia.org/wiki/File:Gaslamp_Quarter_02.jpg",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         }
       ]
     },
     {
       "date": "2026-11-28",
       "weekday": "周六",
-      "title": "Tuna Harbor Market · Hidden Valley · Skull Rock（可选）· Keys View",
-      "route": "San Diego → Joshua Tree",
-      "tagline": "Tuna Harbor Market · Hidden Valley · Skull Rock（可选）· Keys View",
-      "intro": [],
+      "title": "Tuna Harbor Dockside Market → Hidden Valley → Skull Rock → Keys View",
+      "route": "San Diego → Joshua Tree Town",
+      "tagline": "Tuna Harbor Dockside Market → Hidden Valley → Skull Rock → Keys View",
+      "intro": [
+        "固定顺序：Hidden Valley → Skull Rock → Keys View；晚住 Joshua Tree Town，具体酒店未选定。车程是规划估时，假日入园排队可能增加。"
+      ],
       "items": [
         {
           "id": "d3-01",
@@ -279,11 +577,11 @@
           "title": "早餐、退房",
           "start": 420,
           "end": 480,
-          "period": "morning",
           "notes": [
             "在酒店吃早餐，收拾行李，办理退房。"
           ],
-          "destination": null
+          "destination": null,
+          "kind": "activity"
         },
         {
           "id": "d3-02",
@@ -291,11 +589,60 @@
           "title": "Tuna Harbor Dockside Market",
           "start": 480,
           "end": 540,
-          "period": "morning",
-          "notes": [
-            "买新鲜海胆（Uni），逛海鲜市场。感恩节周末营业情况及海胆供应待确认。"
+          "kind": "sight",
+          "notes": [],
+          "destination": "598 Harbor Lane, San Diego, CA 92101",
+          "photoKey": "tuna-market",
+          "description": "码头旁的摊位把渔船与餐桌连在一起：当季鱼获、贝类和海胆由当地渔民带来。可以先逛一圈，再询问当天的 Sea Urchin（海胆 / Uni）供应；若摊主提供现场开壳服务，能直观看到刚打开的金黄色海胆。",
+          "address": "598 Harbor Lane, San Diego, CA 92101",
+          "parking": [
+            {
+              "name": "Tuna Harbor 港口公共停车位",
+              "destination": "Tuna Harbor Parking Lot, San Diego, CA",
+              "fee": "港口区域通常6 AM–8 PM收费（节假日另有规定）；11/28周六不可自动视为感恩节免费，现场确认费率。"
+            }
           ],
-          "destination": "Tuna Harbor Dockside Market"
+          "duration": "1小时",
+          "sources": [
+            {
+              "label": "海鲜市场官网",
+              "url": "https://www.thdocksidemarket.com/"
+            },
+            {
+              "label": "港口停车规定",
+              "url": "https://www.portofsandiego.org/experiences/where-go/embarcadero/tuna-harbor-park"
+            }
+          ],
+          "details": [
+            "常规周六8 AM开市，至1 PM或售完。官网不保证每周鱼获品种；尚未查到针对2026/11/28的假期营业与海胆供应确认。出发前联系市场或查看官方更新。",
+            "部分摊位可能只收现金，备一些现金；现场开海胆和即食服务请询问摊主，不保证所有摊位提供。"
+          ],
+          "next": {
+            "title": "Joshua Tree Town / 西入口",
+            "time": "约3–3.5小时，假日可能更久",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "https://images.squarespace-cdn.com/content/v1/5e73db0648933135a78e1971/1591636657101-PM574BB10R5SHZRFSIMH/_mo1eLGQ.jpeg?format=1000w",
+              "alt": "Tuna Harbor Dockside Market 官网所展示的海鲜摊位与选购现场",
+              "credit": "Tuna Harbor Dockside Market 官网",
+              "source": "https://www.thdocksidemarket.com/san-diego",
+              "license": "官网参考图片；版权归原作者",
+              "licenseUrl": "",
+              "changes": "远程参考图片，未修改；未作为开放授权照片保存到本仓库"
+            },
+            {
+              "src": "images/uni.jpg",
+              "alt": "新鲜剖开的海胆与海胆黄（食材参考，非市场现场）",
+              "credit": "Portum",
+              "source": "https://commons.wikimedia.org/wiki/File:Sea_urchin_eggs.jpg",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
           "id": "d3-03",
@@ -303,81 +650,241 @@
           "title": "开车前往 Joshua Tree",
           "start": 540,
           "end": 750,
-          "period": "afternoon",
+          "kind": "drive",
           "notes": [
-            "预计3–3.5小时，途中准备午餐、饮用水。"
+            "预计3–3.5小时，假日可能更久；途中准备午餐、足量饮用水并加油。"
           ],
-          "destination": null
+          "destination": "Joshua Tree Visitor Center, 6554 Park Blvd, Joshua Tree, CA"
         },
         {
           "id": "d3-04",
           "time": "12:30–1:15 PM",
-          "title": "午餐、进入国家公园",
+          "title": "午餐、从西入口进入国家公园",
           "start": 750,
           "end": 795,
-          "period": "afternoon",
+          "kind": "activity",
           "notes": [
-            "从西入口进入，预留排队时间。"
+            "预留排队及前往 Hidden Valley 时间；若交通延误，压缩停留并优先保证4 PM前到 Keys View。"
           ],
-          "destination": null
+          "destination": "Joshua Tree National Park West Entrance"
         },
         {
           "id": "d3-05",
-          "time": "1:15–2:30 PM",
+          "time": "1:15–2:15 PM",
           "title": "Hidden Valley Nature Trail",
           "start": 795,
-          "end": 870,
-          "period": "afternoon",
-          "notes": [
-            "约1英里环形步道，欣赏巨石、约书亚树和沙漠风景。"
+          "end": 855,
+          "kind": "sight",
+          "notes": [],
+          "destination": "Hidden Valley Nature Trail, Joshua Tree National Park, CA",
+          "photoKey": "hidden-valley",
+          "description": "穿过岩石入口后，巨大的圆润岩墙把山谷围成一座天然庭院，约书亚树和沙漠灌木散落其中。短短一圈就能走近公园最具代表性的巨石景观，尤其适合把张开的树枝与高耸岩壁放在同一张照片里；第一次来不用长途徒步，也能感受到沙漠的尺度。",
+          "address": "Hidden Valley Nature Trail, Joshua Tree National Park, CA",
+          "parking": [
+            {
+              "name": "Hidden Valley Nature Trail 日用停车区",
+              "destination": "Hidden Valley Nature Trail Parking, Joshua Tree National Park",
+              "fee": "景点停车无单独停车票；国家公园私家车入园票 $30，连续7天有效。停车以指定车位为准。"
+            }
           ],
-          "destination": "Hidden Valley Nature Trail Joshua Tree"
+          "duration": "约1小时 · 约1英里环线",
+          "sources": [
+            {
+              "label": "NPS Hidden Valley",
+              "url": "https://www.nps.gov/places/hidden-valley-trailhead.htm"
+            },
+            {
+              "label": "NPS 门票",
+              "url": "https://www.nps.gov/jotr/planyourvisit/fees.htm"
+            },
+            {
+              "label": "NPS 道路与步道动态",
+              "url": "https://www.nps.gov/jotr/planyourvisit/conditions.htm"
+            }
+          ],
+          "details": [],
+          "next": {
+            "title": "Skull Rock",
+            "time": "约15–20分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/hidden-valley.jpg",
+              "alt": "Hidden Valley 巨石环绕的沙漠步道",
+              "credit": "David Balmer",
+              "source": "https://commons.wikimedia.org/wiki/File:Hidden_Valley_Trail_-_panoramio.jpg",
+              "license": "CC BY 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
+        },
+        {
+          "id": "sat-skull-drive",
+          "time": "2:15–2:35 PM",
+          "title": "Hidden Valley → Skull Rock",
+          "start": 855,
+          "end": 875,
+          "kind": "drive",
+          "notes": [
+            "预计15–20分钟，另视车位情况调整。"
+          ],
+          "destination": "Skull Rock Parking Area Joshua Tree National Park"
         },
         {
           "id": "d3-06",
-          "time": "2:30–3:15 PM",
-          "title": "Skull Rock（可选）",
-          "start": 870,
-          "end": 915,
-          "period": "afternoon",
-          "notes": [
-            "拍照、短距离散步。如果时间紧，挪到周日。"
+          "time": "2:35–3:05 PM",
+          "title": "Skull Rock",
+          "start": 875,
+          "end": 905,
+          "kind": "sight",
+          "notes": [],
+          "destination": "Skull Rock, Park Boulevard, Joshua Tree National Park, CA",
+          "photoKey": "skull-rock",
+          "description": "从路边走近，就能看见巨石上两个深凹的“眼窝”，让整块岩石像一颗朝外看的骷髅头。它的辨识度很高，不需要走完整条徒步路线也能拍到经典正面；绕着合法步道微调角度，还能看到旁边岩石层叠的形状。",
+          "address": "Skull Rock, Park Boulevard, Joshua Tree National Park, CA",
+          "parking": [
+            {
+              "name": "Skull Rock 指定路侧停车区",
+              "destination": "Skull Rock Parking Area, Joshua Tree National Park",
+              "fee": "景点停车无单独停车票；国家公园私家车入园票 $30，连续7天有效。停车以指定车位为准。"
+            }
           ],
-          "destination": "Skull Rock Joshua Tree"
+          "duration": "20–30分钟 · 短距离拍照",
+          "sources": [
+            {
+              "label": "NPS Skull Rock",
+              "url": "https://www.nps.gov/thingstodo/hike-skull-rock.htm"
+            },
+            {
+              "label": "NPS 道路与步道动态",
+              "url": "https://www.nps.gov/jotr/planyourvisit/conditions.htm"
+            }
+          ],
+          "details": [
+            "明确安排在周六，不再放到周日。这里只做短暂停留，不走完整 Skull Rock Loop。"
+          ],
+          "next": {
+            "title": "Keys View",
+            "time": "约30–40分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/skull-rock.jpg",
+              "alt": "Joshua Tree 的 Skull Rock 骷髅状巨石",
+              "credit": "డా. గన్నవరపు నరసింహమూర్తి",
+              "source": "https://commons.wikimedia.org/wiki/File:Skull_Rock,_Joshua_Tree_National_Park.jpg",
+              "license": "CC0",
+              "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
+        },
+        {
+          "id": "sat-keys-drive",
+          "time": "3:05–3:45 PM",
+          "title": "Skull Rock → Keys View",
+          "start": 905,
+          "end": 945,
+          "kind": "drive",
+          "notes": [
+            "预计30–40分钟；争取4 PM前抵达，车满时遵循管理员指引。"
+          ],
+          "destination": "Keys View Parking Lot Joshua Tree National Park"
         },
         {
           "id": "d3-07",
-          "time": "3:15–4:45 PM",
-          "title": "Keys View 日落",
-          "start": 915,
-          "end": 1005,
-          "period": "afternoon",
-          "notes": [
-            "包含从 Skull Rock 开车前往 Keys View 的时间。建议4:00 PM左右抵达观景台。"
+          "time": "3:45–4:50 PM",
+          "title": "Keys View · 日落",
+          "start": 945,
+          "end": 1010,
+          "kind": "sight",
+          "notes": [],
+          "destination": "Keys View Road 终点, Joshua Tree National Park, CA",
+          "photoKey": "keys-view",
+          "description": "这里的视野突然从近处的巨石拉开，Coachella Valley 铺在脚下，远山一层层伸向地平线。晴天能望见广阔山谷与远处地貌，日落前光线逐渐变暖，适合拍大场景和山脊剪影；到这里是为了安静看一会儿整个沙漠，而不只是下车拍一张照。",
+          "address": "Keys View Road 终点, Joshua Tree National Park, CA",
+          "parking": [
+            {
+              "name": "Keys View 顶部停车场",
+              "destination": "Keys View Parking Lot, Joshua Tree National Park",
+              "fee": "景点停车无单独停车票；国家公园私家车入园票 $30，连续7天有效。停车以指定车位为准。"
+            }
           ],
-          "destination": "Keys View Joshua Tree"
+          "duration": "约1小时 · 观景与日落",
+          "sources": [
+            {
+              "label": "NPS Keys View",
+              "url": "https://www.nps.gov/places/keys-view.htm"
+            },
+            {
+              "label": "Joshua Tree 日落时间",
+              "url": "https://www.timeanddate.com/sun/usa/joshua-tree?month=11&year=2026"
+            },
+            {
+              "label": "NPS 道路与步道动态",
+              "url": "https://www.nps.gov/jotr/planyourvisit/conditions.htm"
+            }
+          ],
+          "details": [
+            "争取4 PM左右或更早到达。11月底日落约4:35–4:40 PM（地区天文时间，Keys View实际落山受地形影响），不要等到日落时才到。",
+            "Keys View 风大、海拔较高，带保暖层。离开后直接返回 Joshua Tree Town，不前往 Twentynine Palms。"
+          ],
+          "next": {
+            "title": "Joshua Tree Town 住宿区域",
+            "time": "约45–60分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/keys-view.jpg",
+              "alt": "Keys View 俯瞰 Coachella Valley",
+              "credit": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+              "source": "https://commons.wikimedia.org/wiki/File:Joshua_tree_keys_view_pano_more_vertical.jpg",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
+        },
+        {
+          "id": "sat-town-drive",
+          "time": "4:50–5:50 PM",
+          "title": "返回 Joshua Tree Town",
+          "start": 1010,
+          "end": 1070,
+          "kind": "drive",
+          "notes": [
+            "预计45–60分钟；日落后仍需开出公园，保持慢速并留意野生动物。"
+          ],
+          "destination": "Joshua Tree, CA"
         },
         {
           "id": "d3-08",
-          "time": "4:45–6:00 PM",
-          "title": "晚餐、入住酒店",
-          "start": 1005,
-          "end": 1080,
-          "period": "afternoon",
+          "time": "5:50 PM以后",
+          "title": "Joshua Tree Town · 晚餐、入住",
+          "start": 1070,
+          "end": 1140,
+          "kind": "activity",
           "notes": [
-            "前往 Joshua Tree 镇或 Twentynine Palms。"
+            "住宿区域已确定为 Joshua Tree Town；具体酒店尚未选定、未预订。"
           ],
-          "destination": null
+          "destination": "Joshua Tree, CA"
         },
         {
           "id": "d3-09",
-          "time": "7:00–8:00 PM",
-          "title": "观星",
+          "time": "7:00–8:00 PM（可选）",
+          "title": "住宿附近观星",
           "start": 1140,
           "end": 1200,
-          "period": "evening",
+          "kind": "activity",
           "notes": [
-            "天气允许时，在安全的观星地点欣赏沙漠星空。"
+            "天气允许时，在住宿允许且安全的地点看星空；为减少夜间驾驶，不额外安排远距离进园。"
           ],
           "destination": null
         }
@@ -386,11 +893,11 @@
     {
       "date": "2026-11-29",
       "weekday": "周日",
-      "title": "Skull Rock · Cholla Cactus Garden · Palm Springs Downtown · Aerial Tramway",
-      "route": "Joshua Tree → Palm Springs",
-      "tagline": "Skull Rock · Cholla Cactus Garden · Palm Springs Downtown · Aerial Tramway",
+      "title": "Cholla Cactus Garden → Palm Springs Downtown → Aerial Tramway",
+      "route": "Joshua Tree Town → Palm Springs",
+      "tagline": "Cholla Cactus Garden → Palm Springs Downtown → Aerial Tramway",
       "intro": [
-        "这天建议上午继续游览 Joshua Tree，下午前往 Palm Springs。重点是 Skull Rock、Cholla Cactus Garden、Palm Springs Downtown 和 Aerial Tramway。"
+        "周日园内只去 Cholla Cactus Garden；缆车预留3小时。酒店优先 Downtown 附近，尚未选定。"
       ],
       "items": [
         {
@@ -399,140 +906,240 @@
           "title": "早餐、退房",
           "start": 450,
           "end": 510,
-          "period": "morning",
+          "kind": "activity",
           "notes": [
-            "在 Joshua Tree 镇或 Twentynine Palms 吃早餐，办理退房。"
+            "在 Joshua Tree Town 早餐、退房；具体酒店未选定。"
           ],
           "destination": null
         },
         {
-          "id": "d4-02",
-          "time": "8:30–9:15 AM",
-          "title": "开车前往 Skull Rock",
+          "id": "sun-cholla-drive",
+          "time": "8:30–10:00 AM",
+          "title": "Joshua Tree Town → Cholla Cactus Garden",
           "start": 510,
-          "end": 555,
-          "period": "morning",
-          "notes": [
-            "具体车程取决于酒店位置。如果住 Twentynine Palms，通常更近。"
-          ],
-          "destination": "Skull Rock Joshua Tree"
-        },
-        {
-          "id": "d4-03",
-          "time": "9:15–10:00 AM",
-          "title": "Skull Rock",
-          "start": 555,
           "end": 600,
-          "period": "morning",
+          "kind": "drive",
           "notes": [
-            "欣赏形状像骷髅头的巨石，拍照、短距离散步。"
+            "规划预留约75–90分钟（含西入口排队缓冲），以当日导航和道路开放为准；不再去 Skull Rock。"
           ],
-          "destination": "Skull Rock Joshua Tree"
-        },
-        {
-          "id": "d4-04",
-          "time": "10:00–10:45 AM",
-          "title": "开车前往 Cholla Cactus Garden",
-          "start": 600,
-          "end": 645,
-          "period": "morning",
-          "notes": [
-            "沿途欣赏沙漠风景。"
-          ],
-          "destination": "Cholla Cactus Garden"
+          "destination": "Cholla Cactus Garden Parking Lot Joshua Tree National Park"
         },
         {
           "id": "d4-05",
-          "time": "10:45–11:30 AM",
+          "time": "10:00–10:45 AM",
           "title": "Cholla Cactus Garden",
-          "start": 645,
-          "end": 690,
-          "period": "morning",
-          "notes": [
-            "走约0.25英里的短步道，欣赏密集的仙人掌。注意不要触碰仙人掌。"
+          "start": 600,
+          "end": 645,
+          "kind": "sight",
+          "notes": [],
+          "destination": "Cholla Cactus Garden, Pinto Basin Road, Joshua Tree National Park, CA",
+          "photoKey": "cholla",
+          "description": "走进这片仙人掌群，视线里会出现密密麻麻的浅色枝节，远处则是开阔盆地与山脉。光线斜照时，细刺像被镶上一圈金色边缘，非常适合拍近处仙人掌与远山的层次。上午不保证有日出时的逆光，但仍能清楚看出这片“花园”与公园北侧约书亚树林的不同。",
+          "address": "Cholla Cactus Garden, Pinto Basin Road, Joshua Tree National Park, CA",
+          "parking": [
+            {
+              "name": "Cholla Cactus Garden 步道口停车场",
+              "destination": "Cholla Cactus Garden Parking Lot, Joshua Tree National Park",
+              "fee": "景点停车无单独停车票；国家公园私家车入园票 $30，连续7天有效。停车以指定车位为准。"
+            }
           ],
-          "destination": "Cholla Cactus Garden"
+          "duration": "约30–45分钟 · 约0.25英里环线",
+          "sources": [
+            {
+              "label": "NPS Cholla Cactus Garden",
+              "url": "https://www.nps.gov/places/cholla-cactus-garden.htm"
+            },
+            {
+              "label": "NPS 道路与步道动态",
+              "url": "https://www.nps.gov/jotr/planyourvisit/conditions.htm"
+            }
+          ],
+          "details": [
+            "穿包脚鞋，在指定步道内行走，不要触碰仙人掌或地面的脱落枝节。",
+            "NPS景点页仍有2024/12–2025/4的旧施工提示，不能据此认定2026关闭或保证开放。本次已查官方动态入口，出发前再查当前封闭地图；如关闭则不进入。"
+          ],
+          "next": {
+            "title": "Palm Springs Downtown",
+            "time": "约2–2.5小时（保守预留，含出园）",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/cholla.jpg",
+              "alt": "Cholla Cactus Garden 仙人掌群落",
+              "credit": "Steven Lek",
+              "source": "https://commons.wikimedia.org/wiki/File:Cholla_Cactus_Garden_Joshua_Tree_National_Park_2019_9.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
           "id": "d4-06",
-          "time": "11:30 AM–2:00 PM",
+          "time": "10:45 AM–1:15 PM",
           "title": "开车前往 Palm Springs",
-          "start": 690,
-          "end": 840,
-          "period": "afternoon",
+          "start": 645,
+          "end": 795,
+          "kind": "drive",
           "notes": [
-            "预计约2–2.5小时，具体取决于出园路线和交通。Cholla Cactus Garden 位于公园东侧，前往 Palm Springs 需要较长车程。"
+            "预计约2–2.5小时，路线和交通会改变车程；保留原计划的保守预留，途中可短休息。"
           ],
-          "destination": null
+          "destination": "Palm Springs Downtown Parking Garage"
         },
         {
           "id": "d4-07",
-          "time": "2:00–3:00 PM",
-          "title": "Palm Springs Downtown 午餐、逛街",
-          "start": 840,
-          "end": 900,
-          "period": "afternoon",
-          "notes": [
-            "在 Palm Canyon Drive 附近吃午餐，欣赏棕榈树街景、沙漠度假小镇建筑。"
+          "time": "1:15–2:45 PM",
+          "title": "Palm Canyon Drive / Downtown · 午餐",
+          "start": 795,
+          "end": 885,
+          "kind": "sight",
+          "notes": [],
+          "destination": "Palm Canyon Drive & Amado Road, Palm Springs, CA",
+          "photoKey": "palm-springs",
+          "description": "道路两旁的棕榈树把视线引向背后高耸的 San Jacinto Mountains，低矮商铺和山体之间形成很有特色的对比。沿 Palm Canyon Drive 找一家餐厅或咖啡馆，再逛精品店与画廊，是最直接感受 Palm Springs 复古度假气氛的方式。",
+          "address": "Palm Canyon Drive & Amado Road, Palm Springs, CA",
+          "parking": [
+            {
+              "name": "Downtown Parking Garage",
+              "destination": "Downtown Parking Garage, N Museum Drive, Palm Springs, CA",
+              "fee": "市政府列为免费停车；可从 N Palm Canyon Dr / Amado Rd 或 N Museum Dr 进入，遵循现场时限。"
+            }
           ],
-          "destination": "Palm Canyon Drive Palm Springs"
+          "duration": "约1.5小时（含午餐）",
+          "sources": [
+            {
+              "label": "Palm Springs 市政府停车指南",
+              "url": "https://www.palmspringsca.gov/government/city-manager/office-of-economic-development/downtown-revitalization-project/free-downtown-parking"
+            }
+          ],
+          "details": [],
+          "next": {
+            "title": "Aerial Tramway Valley Station",
+            "time": "约20–30分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/palm-downtown.jpg",
+              "alt": "Palm Springs Downtown 的棕榈树街景",
+              "credit": "Patrick Pelster",
+              "source": "https://commons.wikimedia.org/wiki/File:Downtown_Palm_Springs_CA.JPG",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
           "id": "d4-08",
-          "time": "3:00–3:30 PM",
-          "title": "开车前往 Palm Springs Aerial Tramway",
-          "start": 900,
-          "end": 930,
-          "period": "afternoon",
-          "notes": [],
-          "destination": "Palm Springs Aerial Tramway"
+          "time": "2:45–3:15 PM",
+          "title": "前往 Palm Springs Aerial Tramway",
+          "start": 885,
+          "end": 915,
+          "kind": "drive",
+          "notes": [
+            "预计车程，含适量停车缓冲；实际以当天导航为准。"
+          ],
+          "destination": "1 Tram Way, Palm Springs, CA 92262"
         },
         {
           "id": "d4-09",
-          "time": "3:30–5:30 PM",
+          "time": "3:15–6:15 PM",
           "title": "Palm Springs Aerial Tramway",
-          "start": 930,
-          "end": 1050,
-          "period": "afternoon",
-          "notes": [
-            "乘坐旋转缆车登上 San Jacinto Mountains，欣赏山谷和高山风景。",
-            "11月底山顶可能很冷，甚至有积雪。缆车排队时间和感恩节周末运营安排需要提前确认。"
+          "start": 915,
+          "end": 1095,
+          "kind": "sight",
+          "notes": [],
+          "destination": "1 Tram Way, Palm Springs, CA 92262",
+          "photoKey": "tramway",
+          "description": "缆车缓慢旋转着升向山上，脚下的沙漠山谷逐渐拉远，窗外景色从干燥山坡换成高海拔森林。抵达山顶后，可以走到观景平台，看白天与暮色中的山谷；同一天从棕榈树街道来到寒冷松林，是这站最特别的体验。",
+          "address": "1 Tram Way, Palm Springs, CA 92262",
+          "parking": [
+            {
+              "name": "Valley Station 官方停车场",
+              "destination": "Palm Springs Aerial Tramway Parking, 1 Tram Way, Palm Springs, CA 92262",
+              "fee": "官方停车 $15/车；周末及假日7 AM开放，费用可能调整。"
+            }
           ],
-          "destination": "Palm Springs Aerial Tramway"
+          "duration": "预留3小时（停车、排队、往返缆车及山顶）",
+          "sources": [
+            {
+              "label": "官方购票与价格",
+              "url": "https://pstramway.com/tickets/"
+            },
+            {
+              "label": "购买缆车票",
+              "url": "https://pstramway.vivaticket.com/"
+            },
+            {
+              "label": "2026 假期运营时间",
+              "url": "https://pstramway.com/about-us/hours/"
+            },
+            {
+              "label": "缆车官方停车信息",
+              "url": "https://pstramway.com/parking-information/"
+            }
+          ],
+          "details": [
+            "截至2026/11/14官网：成人票 $36.95、3–10岁儿童 $20.95、65岁以上 $33.95，所列价格含 $2 网上手续费；最终价格与可售时段以结账页为准。",
+            "官方2026感恩节周末（11/26–29）首班8 AM，冬季末班上山8 PM、下山9:30 PM。尚未购票；建议提前选票，3小时是预留，并非保证排队上限。",
+            "山顶明显冷于山下，11月底可能有积雪；带保暖外套，出发前查官方天气与临时停运信息。日落后不安排远距离山地徒步。"
+          ],
+          "next": {
+            "title": "Palm Springs Downtown / 酒店区域",
+            "time": "约20–30分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/tramway.jpg",
+              "alt": "Palm Springs Aerial Tramway 缆车与山壁",
+              "credit": "Don Graham from Redlands, CA, USA - God bless it!",
+              "source": "https://commons.wikimedia.org/wiki/File:We%27ve_got_to_stop_meeting_like_this,_Palm_Springs_Aerial_Tramway,_CA_2015_(26151516883).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
           "id": "d4-10",
-          "time": "5:30–6:00 PM",
+          "time": "6:15–6:45 PM",
           "title": "返回 Palm Springs Downtown",
-          "start": 1050,
-          "end": 1080,
-          "period": "afternoon",
-          "notes": [],
-          "destination": "Palm Canyon Drive Palm Springs"
+          "start": 1095,
+          "end": 1125,
+          "kind": "drive",
+          "notes": [
+            "预计车程，含适量停车缓冲；实际以当天导航为准。"
+          ],
+          "destination": "Palm Springs Downtown"
         },
         {
           "id": "d4-11",
-          "time": "6:00 PM以后",
+          "time": "6:45 PM以后",
           "title": "晚餐、酒店入住",
-          "start": 1080,
-          "end": 1080,
-          "period": "evening",
+          "start": 1125,
+          "end": 1200,
+          "kind": "activity",
           "notes": [
-            "在 Palm Springs 住一晚，晚上可以继续逛 Palm Canyon Drive。"
+            "Palm Springs 优先考虑 Downtown 附近，方便步行吃晚餐。具体酒店尚未选定、未预订。"
           ],
-          "destination": null
+          "destination": "Palm Springs Downtown"
         }
       ]
     },
     {
       "date": "2026-11-30",
       "weekday": "周一",
-      "title": "USS Midway · 胜利之吻雕像 · Seaport Village · Downtown · SAN 机场",
+      "title": "USS Midway（外观）→ 胜利之吻 → Seaport Village → 机场",
       "route": "Palm Springs → San Diego → 纽约",
-      "tagline": "USS Midway · 胜利之吻雕像 · Seaport Village · Downtown · SAN 机场",
+      "tagline": "USS Midway（外观）→ 胜利之吻 → Seaport Village → 机场",
       "intro": [
-        "这天晚上 10:35 PM 从 SAN 机场起飞，所以白天还有时间游览 San Diego。",
-        "建议上午9:00退房，9:30出发返回 San Diego。下午主要安排 Downtown 海港附近的景点，尽量减少绕路。"
+        "晚10:35 PM从 SAN 起飞，经 CLT 返回纽约。USS Midway只看外观，海港景点以步行为主。"
       ],
       "items": [
         {
@@ -541,11 +1148,11 @@
           "title": "早餐",
           "start": 480,
           "end": 540,
-          "period": "morning",
           "notes": [
             "在 Palm Springs 酒店或 Downtown 吃早餐。"
           ],
-          "destination": null
+          "destination": null,
+          "kind": "activity"
         },
         {
           "id": "d5-02",
@@ -553,9 +1160,9 @@
           "title": "酒店退房、整理行李",
           "start": 540,
           "end": 570,
-          "period": "morning",
           "notes": [],
-          "destination": null
+          "destination": null,
+          "kind": "activity"
         },
         {
           "id": "d5-03",
@@ -563,11 +1170,11 @@
           "title": "开车返回 San Diego",
           "start": 570,
           "end": 750,
-          "period": "afternoon",
           "notes": [
             "从 Palm Springs 出发，预计车程约2.5–3小时。感恩节假期返程可能堵车，建议预留额外时间。"
           ],
-          "destination": null
+          "destination": null,
+          "kind": "drive"
         },
         {
           "id": "d5-04",
@@ -575,35 +1182,101 @@
           "title": "午餐",
           "start": 750,
           "end": 810,
-          "period": "afternoon",
           "notes": [
             "在 Downtown 或 Little Italy 附近吃午餐。"
           ],
-          "destination": null
+          "destination": null,
+          "kind": "activity"
         },
         {
           "id": "d5-05",
           "time": "1:30–2:15 PM",
-          "title": "USS Midway 外观",
+          "title": "USS Midway（外观）",
           "start": 810,
           "end": 855,
-          "period": "afternoon",
-          "notes": [
-            "在海港边拍摄航空母舰外观，不进入博物馆。"
+          "kind": "sight",
+          "notes": [],
+          "destination": "910 N Harbor Dr, San Diego, CA 92101",
+          "photoKey": "midway",
+          "description": "在海港步道上看这艘航空母舰，宽阔的飞行甲板和舰岛能让人直观感受到军舰的体量。把舰身与海湾一起放进画面即可；本次不进入博物馆、不购买馆内参观票。",
+          "address": "910 N Harbor Dr, San Diego, CA 92101",
+          "parking": [
+            {
+              "name": "Tuna Harbor 港口公共停车位",
+              "destination": "Tuna Harbor Parking Lot, San Diego, CA",
+              "fee": "收费公共停车，实际费率与时限看当天标牌；可停一次步行串联海港景点。"
+            }
           ],
-          "destination": "USS Midway Museum"
+          "duration": "约45分钟 · 只看外观",
+          "sources": [
+            {
+              "label": "港口停车规定",
+              "url": "https://www.portofsandiego.org/experiences/where-go/embarcadero/tuna-harbor-park"
+            }
+          ],
+          "details": [],
+          "next": {
+            "title": "Unconditional Surrender Statue",
+            "time": "约5–10分钟",
+            "mode": "步行",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/midway.jpg",
+              "alt": "停泊于 San Diego 的 USS Midway 航母外观",
+              "credit": "Michael W. Kolton",
+              "source": "https://commons.wikimedia.org/wiki/File:USS_Midway_in_San_Diego.JPG",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
           "id": "d5-06",
           "time": "2:15–2:45 PM",
-          "title": "胜利之吻雕像（Unconditional Surrender）",
+          "title": "Unconditional Surrender Statue（胜利之吻）",
           "start": 855,
           "end": 885,
-          "period": "afternoon",
-          "notes": [
-            "雕像就在 USS Midway 旁边，可以步行前往，拍照留念。"
+          "kind": "sight",
+          "notes": [],
+          "destination": "Unconditional Surrender Statue, Tuna Harbor Park, San Diego, CA",
+          "photoKey": "statue",
+          "description": "巨大的水手与护士拥吻雕像就在海港边，人物姿态鲜明，背后还能带入军舰和海湾。沿步道从 USS Midway 走过来即可，适合拍一张有尺度感的合影。",
+          "address": "Unconditional Surrender Statue, Tuna Harbor Park, San Diego, CA",
+          "parking": [
+            {
+              "name": "沿用 USS Midway 周边停车位",
+              "destination": "Tuna Harbor Parking Lot, San Diego, CA",
+              "fee": "无需为此单独挪车；原车位收费及时限继续适用。"
+            }
           ],
-          "destination": "Unconditional Surrender San Diego"
+          "duration": "约30分钟",
+          "sources": [
+            {
+              "label": "港口停车规定",
+              "url": "https://www.portofsandiego.org/experiences/where-go/embarcadero/tuna-harbor-park"
+            }
+          ],
+          "details": [],
+          "next": {
+            "title": "Seaport Village",
+            "time": "约10–15分钟",
+            "mode": "步行",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/statue.jpg",
+              "alt": "San Diego 胜利之吻雕像",
+              "credit": "rosalynn carmen",
+              "source": "https://commons.wikimedia.org/wiki/File:The_%22Unconditional_Surrender,%22_-_panoramio.jpg",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
           "id": "d5-07",
@@ -611,11 +1284,44 @@
           "title": "Seaport Village",
           "start": 885,
           "end": 975,
-          "period": "afternoon",
-          "notes": [
-            "沿着海港散步、逛商店、喝咖啡，欣赏 San Diego Bay 的风景。"
+          "kind": "sight",
+          "notes": [],
+          "destination": "849 W Harbor Dr, San Diego, CA 92101",
+          "photoKey": "seaport",
+          "description": "小商店与咖啡馆沿着海湾铺开，步道可以一路看船只和水面。这里适合把最后一天下午留给散步、逛店和喝咖啡，不必赶着打卡，累了也容易找到地方坐下休息。",
+          "address": "849 W Harbor Dr, San Diego, CA 92101",
+          "parking": [
+            {
+              "name": "Seaport Village 官方停车场",
+              "destination": "Seaport Village Parking, 849 W Harbor Dr, San Diego, CA",
+              "fee": "官网标准价 $8/小时（不足1小时按1小时），无上限。消费满 $10 并验证停车票后，周一至周四前3小时 $5，其后每30分钟 $3；无现金支付。以当天为准。"
+            }
           ],
-          "destination": "Seaport Village"
+          "duration": "约1.5小时",
+          "sources": [
+            {
+              "label": "Seaport Village 停车指南",
+              "url": "https://www.seaportvillage.com/directions-parking"
+            }
+          ],
+          "details": [],
+          "next": {
+            "title": "Downtown 晚餐 / 后续机场还车",
+            "time": "Downtown内约5–15分钟；至还车中心约15–25分钟",
+            "mode": "驾车",
+            "estimated": true
+          },
+          "photos": [
+            {
+              "src": "images/seaport.jpg",
+              "alt": "Seaport Village 建筑街景",
+              "credit": "https://www.flickr.com/photos/kid_pro_quo/",
+              "source": "https://commons.wikimedia.org/wiki/File:SeaportVillage.jpg",
+              "license": "CC BY 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+              "changes": "缩放至网页尺寸，未改变照片内容"
+            }
+          ]
         },
         {
           "id": "d5-08",
@@ -623,11 +1329,11 @@
           "title": "Downtown 自由活动",
           "start": 975,
           "end": 1035,
-          "period": "afternoon",
           "notes": [
             "可以继续逛 Embarcadero 海滨步道，或者去附近的咖啡馆休息。"
           ],
-          "destination": "Embarcadero San Diego"
+          "destination": "Embarcadero San Diego",
+          "kind": "activity"
         },
         {
           "id": "d5-09",
@@ -635,11 +1341,11 @@
           "title": "晚餐",
           "start": 1035,
           "end": 1125,
-          "period": "afternoon",
           "notes": [
             "在 Downtown 或 Little Italy 吃晚餐。"
           ],
-          "destination": null
+          "destination": null,
+          "kind": "activity"
         },
         {
           "id": "d5-10",
@@ -647,11 +1353,11 @@
           "title": "取车、前往机场租车还车点",
           "start": 1125,
           "end": 1170,
-          "period": "evening",
           "notes": [
             "预留 Downtown 交通和加油时间。"
           ],
-          "destination": "San Diego International Airport Rental Car Center"
+          "destination": "San Diego International Airport Rental Car Center",
+          "kind": "drive"
         },
         {
           "id": "d5-11",
@@ -659,11 +1365,11 @@
           "title": "机场还车",
           "start": 1170,
           "end": 1200,
-          "period": "evening",
           "notes": [
             "归还租车，乘坐接驳车前往航站楼（如适用）。"
           ],
-          "destination": "San Diego International Airport Rental Car Center"
+          "destination": "San Diego International Airport Rental Car Center",
+          "kind": "activity"
         },
         {
           "id": "d5-12",
@@ -671,11 +1377,11 @@
           "title": "机场办理手续、候机",
           "start": 1200,
           "end": 1355,
-          "period": "evening",
           "notes": [
             "预留安检、托运行李和登机时间。"
           ],
-          "destination": "San Diego International Airport"
+          "destination": "San Diego International Airport",
+          "kind": "activity"
         },
         {
           "id": "d5-13",
@@ -683,13 +1389,43 @@
           "title": "SAN 起飞",
           "start": 1355,
           "end": 1355,
-          "period": "evening",
           "notes": [
             "经 Charlotte（CLT）转机返回纽约。"
           ],
-          "destination": "San Diego International Airport"
+          "destination": "San Diego International Airport",
+          "kind": "activity"
         }
       ]
+    }
+  ],
+  "revision": "2026-11-14-expanded",
+  "verifiedAt": "2026-11-14",
+  "planningNote": "车程、停车缓冲及未明确指定的时段为规划估算，不是实时交通或预约。营业和道路情况出发前复核。",
+  "checks": [
+    {
+      "label": "Torrey Pines：海滩开放，保护区步道施工关闭",
+      "status": "已核实",
+      "url": "https://www.parks.ca.gov/?page_id=31836"
+    },
+    {
+      "label": "Balboa Park：感恩节停车收费豁免；Botanical Building假日闭馆",
+      "status": "已核实",
+      "url": "https://www.sandiego.gov/parking/balboapark"
+    },
+    {
+      "label": "缆车：2026感恩节时段、当前票价和停车费",
+      "status": "已核实",
+      "url": "https://pstramway.com/about-us/hours/"
+    },
+    {
+      "label": "海鲜市场11/28营业与海胆供应",
+      "status": "出发前确认",
+      "url": "https://www.thdocksidemarket.com/"
+    },
+    {
+      "label": "Joshua Tree道路及步道即时封闭地图",
+      "status": "出发前再查",
+      "url": "https://www.nps.gov/jotr/planyourvisit/conditions.htm"
     }
   ]
 }
