@@ -902,10 +902,10 @@
       "items": [
         {
           "id": "d4-01",
-          "time": "7:30–8:30 AM",
+          "time": "8:00–9:00 AM",
           "title": "早餐、退房",
-          "start": 450,
-          "end": 510,
+          "start": 480,
+          "end": 540,
           "kind": "activity",
           "notes": [
             "在 Joshua Tree Town 早餐、退房；具体酒店未选定。"
@@ -914,10 +914,10 @@
         },
         {
           "id": "sun-cholla-drive",
-          "time": "8:30–10:00 AM",
+          "time": "9:00–10:30 AM",
           "title": "Joshua Tree Town → Cholla Cactus Garden",
-          "start": 510,
-          "end": 600,
+          "start": 540,
+          "end": 630,
           "kind": "drive",
           "notes": [
             "预计75–90分钟，含西入口排队时间；以当天导航和道路开放情况为准。"
@@ -926,10 +926,10 @@
         },
         {
           "id": "d4-05",
-          "time": "10:00–10:45 AM",
+          "time": "10:30–11:15 AM",
           "title": "Cholla Cactus Garden",
-          "start": 600,
-          "end": 645,
+          "start": 630,
+          "end": 675,
           "kind": "sight",
           "notes": [],
           "destination": "Cholla Cactus Garden, Pinto Basin Road, Joshua Tree National Park, CA",
@@ -978,10 +978,10 @@
         },
         {
           "id": "d4-06",
-          "time": "10:45 AM–1:15 PM",
+          "time": "11:15 AM–1:45 PM",
           "title": "开车前往 Palm Springs",
-          "start": 645,
-          "end": 795,
+          "start": 675,
+          "end": 825,
           "kind": "drive",
           "notes": [
             "预留约2–2.5小时，途中可以短暂休息，实际用时视路线和交通而定。"
@@ -990,10 +990,10 @@
         },
         {
           "id": "d4-07",
-          "time": "1:15–2:45 PM",
+          "time": "1:45–3:15 PM",
           "title": "Palm Canyon Drive / Downtown · 午餐",
-          "start": 795,
-          "end": 885,
+          "start": 825,
+          "end": 915,
           "kind": "sight",
           "notes": [],
           "destination": "Palm Canyon Drive & Amado Road, Palm Springs, CA",
@@ -1035,10 +1035,10 @@
         },
         {
           "id": "d4-08",
-          "time": "2:45–3:15 PM",
+          "time": "3:15–3:45 PM",
           "title": "前往 Palm Springs Aerial Tramway",
-          "start": 885,
-          "end": 915,
+          "start": 915,
+          "end": 945,
           "kind": "drive",
           "notes": [
             "预计车程，含适量停车缓冲；实际以当天导航为准。"
@@ -1047,10 +1047,10 @@
         },
         {
           "id": "d4-09",
-          "time": "3:15–6:15 PM",
+          "time": "3:45–6:45 PM",
           "title": "Palm Springs Aerial Tramway",
-          "start": 915,
-          "end": 1095,
+          "start": 945,
+          "end": 1125,
           "kind": "sight",
           "notes": [],
           "destination": "1 Tram Way, Palm Springs, CA 92262",
@@ -1108,10 +1108,10 @@
         },
         {
           "id": "d4-10",
-          "time": "6:15–6:45 PM",
+          "time": "6:45–7:15 PM",
           "title": "返回 Palm Springs Downtown",
-          "start": 1095,
-          "end": 1125,
+          "start": 1125,
+          "end": 1155,
           "kind": "drive",
           "notes": [
             "预计车程，含适量停车缓冲；实际以当天导航为准。"
@@ -1120,10 +1120,10 @@
         },
         {
           "id": "d4-11",
-          "time": "6:45 PM以后",
+          "time": "7:15 PM以后",
           "title": "晚餐、酒店入住",
-          "start": 1125,
-          "end": 1200,
+          "start": 1155,
+          "end": 1230,
           "kind": "activity",
           "notes": [
             "Palm Springs 优先考虑 Downtown 附近，方便步行吃晚餐。具体酒店尚未选定、未预订。"
@@ -1398,7 +1398,7 @@
       ]
     }
   ],
-  "revision": "2026-11-15-copy",
+  "revision": "2026-11-15-sunday-8am",
   "verifiedAt": "2026-11-14",
   "planningNote": "车程和停留时间供参考，可根据当天交通与排队情况调整。出发前再确认营业时间和道路开放情况。",
   "checks": [
