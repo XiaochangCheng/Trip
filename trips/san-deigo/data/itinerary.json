@@ -8,7 +8,7 @@
       "route": "San Diego",
       "tagline": "Balboa Park → Coronado Beach → Little Italy",
       "intro": [
-        "固定：Balboa Park 2–3 PM。其余新增时段为按最终顺序安排的预计时间，可随落地、取车及交通调整。"
+        "下午2–3 PM逛 Balboa Park，再去 Coronado Beach，晚上到 Little Italy 吃饭。落地和取车若有延误，可适当调整停留时间。"
       ],
       "items": [
         {
@@ -39,7 +39,7 @@
           "end": 810,
           "kind": "activity",
           "notes": [
-            "新增预计时段：在 Downtown 附近午餐；酒店尚未确认，行李安排以实际为准。"
+            "在 Downtown 附近吃午餐，行李可根据酒店寄存安排处理。"
           ],
           "destination": null
         },
@@ -65,7 +65,7 @@
           "notes": [],
           "destination": "Botanical Building, 1549 El Prado, San Diego, CA 92101",
           "photoKey": "balboa",
-          "description": "从 Lily Pond 对岸望过去，Botanical Building 的木格栅与水中倒影形成公园最经典的画面。沿 El Prado 走向拱廊和广场，可以在同一小时内看见西班牙殖民复兴风格的建筑与 California Tower；这次以建筑外观、池畔和主街散步为主。",
+          "description": "先到 Lily Pond 看植物馆和水中的倒影，这里很适合拍照。再沿着 El Prado 逛逛，两边有拱廊和漂亮的老建筑，走到 California Tower 和 Plaza de Panama 看一圈。",
           "address": "Botanical Building, 1549 El Prado, San Diego, CA 92101",
           "parking": [
             {
@@ -86,8 +86,8 @@
             }
           ],
           "details": [
-            "游览顺序：Botanical Building + Lily Pond（《继承者们》取景地，按你的备注保留）→ El Prado（公园主街 / Main Promenade）→ California Tower → Plaza de Panama。内部小景点不单独拆分时间。",
-            "Botanical Building 官方说明城市假日闭馆：感恩节按外观与 Lily Pond 拍照安排，不承诺进入室内。California Tower 仅看外观。"
+            "游览顺序：Botanical Building + Lily Pond（《继承者们》取景地）→ El Prado（公园主街 / Main Promenade）→ California Tower → Plaza de Panama。",
+            "感恩节 Botanical Building 室内闭馆，可以在外面和 Lily Pond 拍照。California Tower 也安排看外观。"
           ],
           "next": {
             "title": "Coronado Beach",
@@ -129,7 +129,7 @@
           "notes": [],
           "destination": "Ocean Boulevard & R H Dana Place, Coronado, CA 92118",
           "photoKey": "coronado",
-          "description": "这里是一整片开阔、细腻的沙滩，适合沿着浪线散步，让海面和天空占据照片的大部分画面。南侧红屋顶的 Hotel del Coronado 给海滩添了醒目的历史建筑背景。它与 La Jolla Cove 的岩礁、小海湾和海狮观景体验不同，重点是宽阔沙岸和酒店外观。",
+          "description": "Coronado 是一片宽阔的细沙滩，可以沿着海边慢慢走，也可以找个地方坐着看海。旁边就是红屋顶的 Hotel del Coronado，拍海景时可以一起带进画面。和 La Jolla 的岩石海岸相比，这里更适合踩沙、散步。",
           "address": "Ocean Boulevard & R H Dana Place, Coronado, CA 92118",
           "parking": [
             {
@@ -146,7 +146,7 @@
             }
           ],
           "details": [
-            "Hotel del Coronado：1500 Orange Ave, Coronado, CA 92118。本次看外观，不预订酒店或进入收费设施。"
+            "Hotel del Coronado：1500 Orange Ave, Coronado, CA 92118。沿海滩欣赏酒店外观。"
           ],
           "next": {
             "title": "Little Italy",
@@ -197,7 +197,7 @@
           "notes": [],
           "destination": "Piazza della Famiglia, 523 W Date St, San Diego, CA 92101",
           "photoKey": "little-italy",
-          "description": "India Street 两侧的餐厅和露天座位集中，适合落地第一晚边走边找晚餐。可以在 Piazza della Famiglia 附近停留，拍街景、广场与餐厅灯光。",
+          "description": "India Street 一带有很多餐厅和露天座位，晚上很热闹。可以先在 Piazza della Famiglia 广场附近逛逛，再找地方吃晚餐。",
           "address": "Piazza della Famiglia, 523 W Date St, San Diego, CA 92101",
           "parking": [
             {
@@ -237,7 +237,7 @@
       "route": "San Diego",
       "tagline": "Torrey Pines State Beach → Scripps Pier → La Jolla Cove → Sunset Cliffs → Gaslamp Quarter",
       "intro": [
-        "Torrey Pines 只游览 State Beach：自然保护区步道施工关闭。Gaslamp Quarter 保持5:30 PM以后。"
+        "上午去 Torrey Pines State Beach 和 Scripps Pier，下午逛 La Jolla Cove、看 Sunset Cliffs 日落，5:30 PM以后到 Gaslamp Quarter 吃晚餐。"
       ],
       "items": [
         {
@@ -274,7 +274,7 @@
           "notes": [],
           "destination": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
           "photoKey": "torrey-pines",
-          "description": "海浪沿着长长的沙岸铺开，背后是浅色海崖，适合拍海岸线和开阔海面。此次只在开放的 State Beach 区域散步，不安排上山步道；这与原先在保护区俯瞰悬崖的徒步计划不同。",
+          "description": "这里的沙滩很长，背后就是海崖，沿着海边走一段就能看到很开阔的海岸线。当天在 State Beach 散步、拍照，保护区的山上步道暂时关闭。",
           "address": "12600 N Torrey Pines Rd, La Jolla, CA 92037",
           "parking": [
             {
@@ -292,7 +292,7 @@
           ],
           "details": [
             "已核实：保护区道路、上层停车场及步道于 2026/9/22 至 2027/2 施工关闭，预计 2027/3/1 恢复全面开放；南北海滩停车场和 State Beach 保持开放。出发前再查临时公告、潮汐和海况。",
-            "原步道资料（保留参考，本次不安排）：Guy Fleming Trail 20–30分钟、俯瞰大海；Razor Point Trail 30–40分钟、经过制高点；Beach Trail 40–50分钟、通向海滩、入口有洗手间；Extension Trail 70–80分钟。以上为旧计划估时，不能据此判断目前开放。"
+            "步道参考（此次不走）：Guy Fleming Trail 约20–30分钟，可俯瞰大海；Razor Point Trail 约30–40分钟，经过观景高处；Beach Trail 约40–50分钟，通向海滩，入口有洗手间；Extension Trail 约70–80分钟。重新开放后再确认路线和用时。"
           ],
           "next": {
             "title": "Scripps Pier / La Jolla Shores",
@@ -334,7 +334,7 @@
           "notes": [],
           "destination": "Scripps Pier, La Jolla, CA 92037",
           "photoKey": "scripps",
-          "description": "从海滩向栈桥望去，一排排桥柱形成很强的透视线条；退后一些也能拍到栈桥伸入太平洋的全景。这里安排海滩拍照与步行，不把研究栈桥本身当作公共步道。",
+          "description": "站在栈桥下往海上看，桥柱一排排延伸出去，是这里很经典的拍照角度。也可以走远一点，拍整座栈桥伸向海里的样子。栈桥用于科研，不对公众开放，在沙滩上看就好。",
           "address": "Scripps Pier, La Jolla, CA 92037",
           "parking": [
             {
@@ -379,7 +379,7 @@
           "end": 780,
           "kind": "activity",
           "notes": [
-            "预计时段；餐厅未选定。"
+            "在 La Jolla Shores 附近找地方吃午餐。"
           ],
           "destination": null
         },
@@ -405,7 +405,7 @@
           "notes": [],
           "destination": "1100 Coast Blvd, La Jolla, CA 92037",
           "photoKey": "la-jolla",
-          "description": "小海湾被岩石和海崖围起来，岸边步道可以俯看海水拍打礁石，也常能远远看到海狮。照片重点是岩礁、蓝绿色海水和曲折岸线，与 Coronado 的宽阔细沙滩形成明显区别。",
+          "description": "La Jolla Cove 是岩石围起来的小海湾，海水清澈，沿岸走走常能看到海狮。这里适合看海湾、拍礁石和海岸线，和 Coronado 那种一整片细沙滩很不一样。",
           "address": "1100 Coast Blvd, La Jolla, CA 92037",
           "parking": [
             {
@@ -422,7 +422,7 @@
             }
           ],
           "details": [
-            "沿岸观景并与海狮保持距离，不跨越临时封闭区域；停车与步行时间已留缓冲。"
+            "与海狮保持距离，不跨越临时封闭区域。"
           ],
           "next": {
             "title": "Sunset Cliffs",
@@ -464,7 +464,7 @@
           "notes": [],
           "destination": "Sunset Cliffs Blvd & Ladera St, San Diego, CA",
           "photoKey": "sunset-cliffs",
-          "description": "海崖与海蚀岩层沿海展开，傍晚的低角度阳光会把岩壁染暖。沿崖顶选择视野开阔的地方，看太阳落向海平线；适合拍海崖轮廓与大面积天空。",
+          "description": "这里可以沿着崖顶看海，傍晚岩壁会被夕阳照成暖色。提前找个视野开阔的位置，等太阳慢慢落下，也很适合拍海崖和晚霞。",
           "address": "Sunset Cliffs Blvd & Ladera St, San Diego, CA",
           "parking": [
             {
@@ -481,7 +481,7 @@
             }
           ],
           "details": [
-            "日落原计划约4:43 PM，提前抵达留出找车位时间。只走安全崖顶步道，不靠近松动边缘。Ocean Beach 不列入行程。"
+            "日落约4:43 PM，提前抵达留出找车位时间。沿崖顶步道走，不靠近松动的崖边。"
           ],
           "next": {
             "title": "Gaslamp Quarter",
@@ -523,7 +523,7 @@
           "notes": [],
           "destination": "Fifth Avenue & L Street, San Diego, CA 92101",
           "photoKey": "gaslamp",
-          "description": "这里是 San Diego Downtown 著名的历史建筑和夜生活街区，维多利亚式立面与餐厅灯光交织在一起。Fifth Avenue 是最值得逛的主街，走到 Fifth Avenue 与 L Street 附近的 Gaslamp Quarter Arch，晚上亮灯后很适合拍照。",
+          "description": "Gaslamp Quarter 是 Downtown 适合吃饭和晚上散步的街区，路边有不少维多利亚式老建筑。沿 Fifth Avenue 逛下去，到 L Street 附近能看到 Gaslamp Quarter Arch，亮灯后可以在这里拍照，再找餐厅吃晚饭。",
           "address": "Fifth Avenue & L Street, San Diego, CA 92101",
           "parking": [
             {
@@ -568,7 +568,7 @@
       "route": "San Diego → Joshua Tree Town",
       "tagline": "Tuna Harbor Dockside Market → Hidden Valley → Skull Rock → Keys View",
       "intro": [
-        "固定顺序：Hidden Valley → Skull Rock → Keys View；晚住 Joshua Tree Town，具体酒店未选定。车程是规划估时，假日入园排队可能增加。"
+        "早上逛海鲜市场，再出发去 Joshua Tree。园内依次去 Hidden Valley、Skull Rock 和 Keys View，晚上住 Joshua Tree Town，酒店待定。假日入园可能排队。"
       ],
       "items": [
         {
@@ -593,7 +593,7 @@
           "notes": [],
           "destination": "598 Harbor Lane, San Diego, CA 92101",
           "photoKey": "tuna-market",
-          "description": "码头旁的摊位把渔船与餐桌连在一起：当季鱼获、贝类和海胆由当地渔民带来。可以先逛一圈，再询问当天的 Sea Urchin（海胆 / Uni）供应；若摊主提供现场开壳服务，能直观看到刚打开的金黄色海胆。",
+          "description": "这是当地渔民摆摊卖新鲜海产的码头市场，可以逛逛当天的鱼获，看看有没有海胆（Sea Urchin / Uni）。想尝鲜的话，可以问摊主能不能现场开海胆、直接吃。",
           "address": "598 Harbor Lane, San Diego, CA 92101",
           "parking": [
             {
@@ -614,8 +614,8 @@
             }
           ],
           "details": [
-            "常规周六8 AM开市，至1 PM或售完。官网不保证每周鱼获品种；尚未查到针对2026/11/28的假期营业与海胆供应确认。出发前联系市场或查看官方更新。",
-            "部分摊位可能只收现金，备一些现金；现场开海胆和即食服务请询问摊主，不保证所有摊位提供。"
+            "通常周六8 AM开市，营业至1 PM或售完。11/28感恩节周末是否营业、当天是否有海胆，需要出发前向市场确认。",
+            "带些现金，部分摊位可能不收卡。现场开海胆和即食服务请向摊主询问。"
           ],
           "next": {
             "title": "Joshua Tree Town / 西入口",
@@ -678,7 +678,7 @@
           "notes": [],
           "destination": "Hidden Valley Nature Trail, Joshua Tree National Park, CA",
           "photoKey": "hidden-valley",
-          "description": "穿过岩石入口后，巨大的圆润岩墙把山谷围成一座天然庭院，约书亚树和沙漠灌木散落其中。短短一圈就能走近公园最具代表性的巨石景观，尤其适合把张开的树枝与高耸岩壁放在同一张照片里；第一次来不用长途徒步，也能感受到沙漠的尺度。",
+          "description": "这条小步道绕在一圈巨石之间，沿路能看到约书亚树和沙漠植物。路程不长，边走边拍大约一小时，很适合第一次来公园的人。找一棵约书亚树，把后面的巨石一起拍进去，就是很有 Joshua Tree 特色的照片。",
           "address": "Hidden Valley Nature Trail, Joshua Tree National Park, CA",
           "parking": [
             {
@@ -743,7 +743,7 @@
           "notes": [],
           "destination": "Skull Rock, Park Boulevard, Joshua Tree National Park, CA",
           "photoKey": "skull-rock",
-          "description": "从路边走近，就能看见巨石上两个深凹的“眼窝”，让整块岩石像一颗朝外看的骷髅头。它的辨识度很高，不需要走完整条徒步路线也能拍到经典正面；绕着合法步道微调角度，还能看到旁边岩石层叠的形状。",
+          "description": "这块巨石有两个像眼窝一样的凹洞，看起来很像骷髅头，所以叫 Skull Rock。从停车处走不远就能看到，停下来拍照、在附近走走就好。",
           "address": "Skull Rock, Park Boulevard, Joshua Tree National Park, CA",
           "parking": [
             {
@@ -764,7 +764,7 @@
             }
           ],
           "details": [
-            "明确安排在周六，不再放到周日。这里只做短暂停留，不走完整 Skull Rock Loop。"
+            "停留约20–30分钟拍照，不走完整的 Skull Rock Loop。"
           ],
           "next": {
             "title": "Keys View",
@@ -806,7 +806,7 @@
           "notes": [],
           "destination": "Keys View Road 终点, Joshua Tree National Park, CA",
           "photoKey": "keys-view",
-          "description": "这里的视野突然从近处的巨石拉开，Coachella Valley 铺在脚下，远山一层层伸向地平线。晴天能望见广阔山谷与远处地貌，日落前光线逐渐变暖，适合拍大场景和山脊剪影；到这里是为了安静看一会儿整个沙漠，而不只是下车拍一张照。",
+          "description": "Keys View 可以从高处俯瞰 Coachella Valley，天气好时能看得很远。傍晚山谷和远山的颜色会慢慢变化，很适合看日落、拍全景。早点到，留些时间找车位和看风景。",
           "address": "Keys View Road 终点, Joshua Tree National Park, CA",
           "parking": [
             {
@@ -832,7 +832,7 @@
           ],
           "details": [
             "争取4 PM左右或更早到达。11月底日落约4:35–4:40 PM（地区天文时间，Keys View实际落山受地形影响），不要等到日落时才到。",
-            "Keys View 风大、海拔较高，带保暖层。离开后直接返回 Joshua Tree Town，不前往 Twentynine Palms。"
+            "Keys View 风大，记得带保暖外套。看完日落后返回 Joshua Tree Town 吃晚餐、入住。"
           ],
           "next": {
             "title": "Joshua Tree Town 住宿区域",
@@ -897,7 +897,7 @@
       "route": "Joshua Tree Town → Palm Springs",
       "tagline": "Cholla Cactus Garden → Palm Springs Downtown → Aerial Tramway",
       "intro": [
-        "周日园内只去 Cholla Cactus Garden；缆车预留3小时。酒店优先 Downtown 附近，尚未选定。"
+        "上午去 Cholla Cactus Garden，下午逛 Palm Springs Downtown、坐缆车。缆车预留3小时，晚上计划住 Downtown 附近，酒店待定。"
       ],
       "items": [
         {
@@ -920,7 +920,7 @@
           "end": 600,
           "kind": "drive",
           "notes": [
-            "规划预留约75–90分钟（含西入口排队缓冲），以当日导航和道路开放为准；不再去 Skull Rock。"
+            "预计75–90分钟，含西入口排队时间；以当天导航和道路开放情况为准。"
           ],
           "destination": "Cholla Cactus Garden Parking Lot Joshua Tree National Park"
         },
@@ -934,7 +934,7 @@
           "notes": [],
           "destination": "Cholla Cactus Garden, Pinto Basin Road, Joshua Tree National Park, CA",
           "photoKey": "cholla",
-          "description": "走进这片仙人掌群，视线里会出现密密麻麻的浅色枝节，远处则是开阔盆地与山脉。光线斜照时，细刺像被镶上一圈金色边缘，非常适合拍近处仙人掌与远山的层次。上午不保证有日出时的逆光，但仍能清楚看出这片“花园”与公园北侧约书亚树林的不同。",
+          "description": "这里是一大片密密的仙人掌，和公园里巨石、约书亚树的景色很不一样。阳光从侧面照过来时，细刺会泛出金色，很适合拍照。沿着短短的环形步道走一圈，就能近距离看看这些仙人掌。",
           "address": "Cholla Cactus Garden, Pinto Basin Road, Joshua Tree National Park, CA",
           "parking": [
             {
@@ -956,7 +956,7 @@
           ],
           "details": [
             "穿包脚鞋，在指定步道内行走，不要触碰仙人掌或地面的脱落枝节。",
-            "NPS景点页仍有2024/12–2025/4的旧施工提示，不能据此认定2026关闭或保证开放。本次已查官方动态入口，出发前再查当前封闭地图；如关闭则不进入。"
+            "出发前查看 NPS 最新道路与步道公告；如花园临时关闭，请按现场指引调整。"
           ],
           "next": {
             "title": "Palm Springs Downtown",
@@ -984,7 +984,7 @@
           "end": 795,
           "kind": "drive",
           "notes": [
-            "预计约2–2.5小时，路线和交通会改变车程；保留原计划的保守预留，途中可短休息。"
+            "预留约2–2.5小时，途中可以短暂休息，实际用时视路线和交通而定。"
           ],
           "destination": "Palm Springs Downtown Parking Garage"
         },
@@ -998,7 +998,7 @@
           "notes": [],
           "destination": "Palm Canyon Drive & Amado Road, Palm Springs, CA",
           "photoKey": "palm-springs",
-          "description": "道路两旁的棕榈树把视线引向背后高耸的 San Jacinto Mountains，低矮商铺和山体之间形成很有特色的对比。沿 Palm Canyon Drive 找一家餐厅或咖啡馆，再逛精品店与画廊，是最直接感受 Palm Springs 复古度假气氛的方式。",
+          "description": "Palm Canyon Drive 两旁都是棕榈树，抬头就能看到后面的 San Jacinto Mountains。街上有餐厅、咖啡馆、小店和画廊，吃完午饭可以随意逛逛，感受一下 Palm Springs 轻松的度假气氛。",
           "address": "Palm Canyon Drive & Amado Road, Palm Springs, CA",
           "parking": [
             {
@@ -1055,7 +1055,7 @@
           "notes": [],
           "destination": "1 Tram Way, Palm Springs, CA 92262",
           "photoKey": "tramway",
-          "description": "缆车缓慢旋转着升向山上，脚下的沙漠山谷逐渐拉远，窗外景色从干燥山坡换成高海拔森林。抵达山顶后，可以走到观景平台，看白天与暮色中的山谷；同一天从棕榈树街道来到寒冷松林，是这站最特别的体验。",
+          "description": "缆车上升时会缓慢旋转，可以从不同角度看脚下的山谷。山下还是沙漠，到了山顶就变成松林，温度也会低很多。下缆车后可以去观景平台看看，天气好时视野很开阔。",
           "address": "1 Tram Way, Palm Springs, CA 92262",
           "parking": [
             {
@@ -1085,7 +1085,7 @@
           ],
           "details": [
             "截至2026/11/14官网：成人票 $36.95、3–10岁儿童 $20.95、65岁以上 $33.95，所列价格含 $2 网上手续费；最终价格与可售时段以结账页为准。",
-            "官方2026感恩节周末（11/26–29）首班8 AM，冬季末班上山8 PM、下山9:30 PM。尚未购票；建议提前选票，3小时是预留，并非保证排队上限。",
+            "2026感恩节周末（11/26–29）首班8 AM，冬季末班上山8 PM、下山9:30 PM。建议提前买票；当天预留3小时游览，假日排队可能更久。",
             "山顶明显冷于山下，11月底可能有积雪；带保暖外套，出发前查官方天气与临时停运信息。日落后不安排远距离山地徒步。"
           ],
           "next": {
@@ -1198,7 +1198,7 @@
           "notes": [],
           "destination": "910 N Harbor Dr, San Diego, CA 92101",
           "photoKey": "midway",
-          "description": "在海港步道上看这艘航空母舰，宽阔的飞行甲板和舰岛能让人直观感受到军舰的体量。把舰身与海湾一起放进画面即可；本次不进入博物馆、不购买馆内参观票。",
+          "description": "沿海港步道就能看到 USS Midway 航空母舰，近看比照片里更壮观。可以在岸边拍拍舰身和海湾，这一站只看外观。",
           "address": "910 N Harbor Dr, San Diego, CA 92101",
           "parking": [
             {
@@ -1243,7 +1243,7 @@
           "notes": [],
           "destination": "Unconditional Surrender Statue, Tuna Harbor Park, San Diego, CA",
           "photoKey": "statue",
-          "description": "巨大的水手与护士拥吻雕像就在海港边，人物姿态鲜明，背后还能带入军舰和海湾。沿步道从 USS Midway 走过来即可，适合拍一张有尺度感的合影。",
+          "description": "这座水手与护士拥吻的雕像就在 USS Midway 附近，沿海边走几分钟就到了。雕像很高，适合在旁边合影，也可以把后面的海湾一起拍进去。",
           "address": "Unconditional Surrender Statue, Tuna Harbor Park, San Diego, CA",
           "parking": [
             {
@@ -1288,7 +1288,7 @@
           "notes": [],
           "destination": "849 W Harbor Dr, San Diego, CA 92101",
           "photoKey": "seaport",
-          "description": "小商店与咖啡馆沿着海湾铺开，步道可以一路看船只和水面。这里适合把最后一天下午留给散步、逛店和喝咖啡，不必赶着打卡，累了也容易找到地方坐下休息。",
+          "description": "Seaport Village 有不少小店和咖啡馆，沿海边走走还能看船。最后一天下午可以在这里逛店、喝咖啡，累了就找个地方坐下来看看海。",
           "address": "849 W Harbor Dr, San Diego, CA 92101",
           "parking": [
             {
@@ -1398,9 +1398,9 @@
       ]
     }
   ],
-  "revision": "2026-11-14-expanded",
+  "revision": "2026-11-15-copy",
   "verifiedAt": "2026-11-14",
-  "planningNote": "车程、停车缓冲及未明确指定的时段为规划估算，不是实时交通或预约。营业和道路情况出发前复核。",
+  "planningNote": "车程和停留时间供参考，可根据当天交通与排队情况调整。出发前再确认营业时间和道路开放情况。",
   "checks": [
     {
       "label": "Torrey Pines：海滩开放，保护区步道施工关闭",
